@@ -117,30 +117,30 @@ distress-default-case16-prisonershandin: "Good work. Another vessel taken from t
 distress-default-case16-shiphandin: "Ship received. We'll get it stripped in no time. Feel free to bring more. Station out."
 
 #Druminence Generics
-distress-drum-blackmail-paid: "BEGIN TRANSLATION --[ Pay no more. Currency empty. ]-- END TRANSLATION"
+distress-drum-blackmail-paid: "Не платите больше. Валюта пуста."
 distress-drum-header1: "Distress Call"
 distress-drum-tractorresp1: "You're just in luck, I'll have you towed to the nearest starbase in no time. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 distress-drum-nohelp1: "Sorry {vesselname}. I can't help."
 distress-drum-plunder1: "That's too bad for you. It will make plundering you all the easier."
 distress-drum-requestbribe1: "That's a real shame. If you don't pay me Ⱡ100 in the next minute, I'm going to finish you off."
-distress-drum-aipaybribe1: "BEGIN TRANSLATION --[ Betrayal. Deeply felt. Take currency. ]-- END TRANSLATION"
+distress-drum-aipaybribe1: "Предательство. Глубоко прочувствовано. Возьмите валюту."
 distress-drum-attack1: "Don't worry, you won't feel a thing. I promise. *Prime Weapons*"
 distress-drum-canhelp1: "Don't worry, I'll fight them off."
 distress-drum-nohelp2: "You deserve whatever is coming to you. Die!"
-distress-drum-being-towed: "BEGIN TRANSLATION --[ Need movement. Spacestation destination. ]-- END TRANSLATION"
+distress-drum-being-towed: "Нужно движение. Пункт назначения космической станции."
 
 #Case 1
-distress-drum-case1: "BEGIN TRANSLATION --[ Internal Conflict ended. Vessel named {vesselname}. Reactor damaged. Need Parts or movement to base. ]-- END TRANSLATION"
+distress-drum-case1: "Внутренний конфликт закончился. Судно под названием {vesselname}. Реактор поврежден. Нужны детали или перемещение на базу."
 distress-drum-case1-reactorparts: "I think I have spare reactor parts you can have. [Requires: 1 x {item-base:item.part.engine}]"
-distress-drum-case1-partthanks: "BEGIN TRANSLATION --[ Part fits. Helpful aid. ]-- END TRANSLATION"
+distress-drum-case1-partthanks: "Часть подходит. Полезная помощь."
 
 #Case 3
-distress-drum-case3: "BEGIN TRANSLATION --[ Assistance required. Helm uncontrolled. Energy Storm deaths. Vessel named {vesselname} ]-- END TRANSLATION"
+distress-drum-case3: "Требуется помощь. Шлем неконтролируемый. Смерти Энергетического Шторма. Судно с названием {vesselname}"
 distress-drum-case3-moreinfo: "What happened to the pilot?"
-distress-drum-case3-moreinfo2: "BEGIN TRANSLATION --[ Pilot dead. *UNABLE TO TRANSLATE* Fire Burn. *UNABLE TO TRANSLATE* Cargo hold. Help us! ]-- END TRANSLATION"
+distress-drum-case3-moreinfo2: "Пилот погиб. *НЕВОЗМОЖНО ПЕРЕВОДИТЬ* Огонь. *НЕВОЗМОЖНО ПЕРЕВОДИТЬ* Грузовой отсек. Помогите нам!"
 distress-drum-case3-cantow: "I can tow you to a nearby starbase. They can take care of you from there. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 distress-drum-case3-takepeople: "I have some space onboard, you'll have to go EVA, but I'll pick you up and take you home."
-distress-drum-case3-peoplespawn: "BEGIN TRANSLATION --[ Exited vessel. Vacuum present. Pick up life. ]-- END TRANSLATION"
+distress-drum-case3-peoplespawn: "Вышедшее судно. Вакуум присутствует. Возьмите жизнь."
 distress-drum-case3-nohelp: "That'll teach you to hire a low budget ship. Sorry, I'm not going to help."
 
 #Case 4
@@ -153,79 +153,79 @@ distress-drum-case4-shipturnin: "This is a great find Captain. I'll let the owne
 
 #Case 5
 distress-drum-case5-header: "Ship under attack"
-distress-drum-case5: "BEGIN TRANSLATION --[ Defend required! Under attack! Vessel: {vesselname}. Captain dead. ]-- END TRANSLATION"
+distress-drum-case5: "Требуется защита! Под атакой! Судно: {vesselname}. Капитан мертв."
 distress-drum-case5-moreinfo: "How did the Captain die?"
-distress-drum-case5-moreinfo2: "BEGIN TRANSLATION --[ Captain, {captname}, smuggle rare crystals. Holy crystal. Smuggle punished with death. Distress call leaked, attackers arrive. Help! ]-- END TRANSLATION"
+distress-drum-case5-moreinfo2: "Капитан, {captname}, занимайтесь контрабандой редких кристаллов. Святой кристалл. Контрабанда карается смертью. Прозвучал сигнал бедствия, прибыли злоумышленники. Помощь!"
 distress-drum-case5-attacker1: "What do you want we are busy"
 distress-drum-case5-attackerbribe: "Here, take this Ⱡ1000 as compensation and leave. This fight isn't worth the trouble."
 distress-drum-case5-attackerbribe-fail: "Hah, you dont even have that amount"
 distress-drum-case5-attackerbribe-success: "You're right, this fight isn't worth it. Your payment is more then covers our expenses."
-distress-drum-case5-success: "BEGIN TRANSLATION --[ Thank you. You good friend. ]-- END TRANSLATION"
+distress-drum-case5-success: "Спасибо. Ты хороший друг."
 
 #Case 6
-distress-drum-case6: "BEGIN TRANSLATION --[ Reactor stolen. Ship {vesselname}. Theft unknown. Need {item-base:item.part.reactor} replacement. ]-- END TRANSLATION"
+distress-drum-case6: "Реактор украден. Корабль {vesselname}. Кража неизвестна. Требуется замена {item-base:item.part.reactor}."
 distress-drum-case6-tractorresp: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 distress-drum-case6-parts: "You're just in luck Captain. I have the parts you need. Prepare to receive them. [Requires: 1 x {item-base:item.part.reactor}]"
-distress-drum-case6-partthanks: "BEGIN TRANSLATION --[ {item-base:item.part.reactor} fit. Thank you. {vesselname} concluded. ]-- END TRANSLATION"
+distress-drum-case6-partthanks: "{item-base:item.part.reactor} подходит. Спасибо. {vesselname} завершило работу."
 
 #Case 7
-distress-drum-case7: "BEGIN TRANSLATION --[ S.O.S.! Ship {vesselname}. Name {name}. Crew dead or missing. Need help. ]-- END TRANSLATION"
+distress-drum-case7: "С.О.С.! Корабль {vesselname}. Имя {имя}. Экипаж погиб или пропал без вести. Нужна помощь."
 distress-drum-case7-moreinfo1: "What happened?"
-distress-drum-case7-moreinfo2: "BEGIN TRANSLATION --[ Cargo bay open. Crew inside. Youth cause. All dead. Help. ]-- END TRANSLATION"
+distress-drum-case7-moreinfo2: "Грузовой отсек открыт. Экипаж внутри. Молодежное дело. Все мертвы. Помощь."
 distress-drum-case7-cantow: "Sure, I can tow you. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 distress-drum-case7-takepeople: "I can transport your people. Come on board."
-distress-drum-case7-peoplespawn: "BEGIN TRANSLATION --[ Exited vessel. Vacuum present. Pick up life. ]-- END TRANSLATION"
+distress-drum-case7-peoplespawn: "Вышедшее судно. Вакуум присутствует. Возьмите жизнь."
 
 #Case 8
-distress-drum-case8: "BEGIN TRANSLATION --[ Vessel {vesselname}. Explosion occurred. Captain dead. Help. ]-- END TRANSLATION"
+distress-drum-case8: "Судно {vesselname}. Произошел взрыв. Капитан мертв. Помощь."
 distress-drum-case8-cantow: "That's a real shame Captain. I can have you towed to the nearest starbase shortly. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 
 #Case 9
-distress-drum-case9: "BEGIN TRANSLATION --[ Ship {vesselname}. Rock Space Object hit. Stuck. Cut loose or die. Help. ]-- END TRANSLATION"
+distress-drum-case9: "Корабль {vesselname}. Каменный космический объект попал в цель. Застрявший. Вырвись или умри. Помощь."
 distress-drum-case9-cando: "Can do. I'll have you cut loose in no time."
-distress-drum-case9-success: "BEGIN TRANSLATION --[ Thank you. Reward: spare parts to you. ]-- END TRANSLATION"
+distress-drum-case9-success: "Спасибо. Награда: запчасти вам."
 
 #Case 10
-distress-drum-case10: "BEGIN TRANSLATION --[ Prison Ship {vesselname}. Carry violencers. Destroyed prison. You take violencers instead. Arrive station. ]-- END TRANSLATION"
+distress-drum-case10: "Корабль-тюрьма {vesselname}. Несите насильников. Разрушенная тюрьма. Вместо этого вы берете насильников. Станция прибытия."
 distress-drum-case10-takepeople: "{vesselname}, I can transport your prisoners. Send them over."
-distress-drum-case10-peoplespawn: "BEGIN TRANSLATION --[ Pickup violencers. Vacuum present. ]-- END TRANSLATION"
+distress-drum-case10-peoplespawn: "Пикап насильников. Вакуум присутствует."
 
 #Case 11
-distress-drum-case11: "BEGIN TRANSLATION --[ Near disaster. Must return. You take survivors. Captain! Go starbase. ]-- END TRANSLATION"
+distress-drum-case11: "Близкая катастрофа. Должен вернуться. Вы берете выживших. Капитан! Отправляйтесь на звездную базу."
 distress-drum-case11-takepeople: "{vesselname}, I will take the survivors."
-distress-drum-case11-peoplespawn: "BEGIN TRANSLATION --[ Take survivors. Vacuum present. ]-- END TRANSLATION"
-distress-drum-case11-attackresp: "BEGIN TRANSLATION --[ Surprise assault! Peaceful intent! ]-- END TRANSLATION"
+distress-drum-case11-peoplespawn: "Возьмите выживших. Вакуум присутствует."
+distress-drum-case11-attackresp: "Неожиданное нападение! Мирное намерение!"
 
 #Case 12
 distress-drum-case12-header: "Ship under attack"
-distress-drum-case12: "BEGIN TRANSLATION --[ Survey Ship {vesselname}. Emergency. Attacker surprise. Help! ]-- END TRANSLATION"
+distress-drum-case12: "Исследовательское судно {название судна}. Чрезвычайная ситуация. Удивление злоумышленника. Помощь!"
 distress-drum-case12-canhelp: "Don't worry, I can help you. The attackers don't stand a chance."
 distress-drum-case12-nohelp: "You deserve whatever is coming to you. Die!"
 
 #Case 13
-distress-drum-case13: "BEGIN TRANSLATION --[ Ship {vesselname}. Captain {name}. Follow space ice at rest. Ice block {vesselname}. Help free. ]-- END TRANSLATION"
+distress-drum-case13: "Корабль {vesselname}. Капитан {имя}. Следуйте за космическим льдом в состоянии покоя. Ледяная глыба {название судна}. Помощь бесплатно."
 distress-drum-case13-cantow: "I can help. I'll tow you to the nearby space station where they can help you further. [Requires Equipped [url=codex://codex.intermediate.tractoring]Tractor Beams[/url]]"
 distress-drum-case13-canhelp: "You're in luck. I can remove that ice for you in no time."
 distress-drum-case13-attack: "You'll make the perfect target for me to practice on. Get ready to suck space."
 
 #Case 14
-distress-drum-case14: "BEGIN TRANSLATION --[ Ship {vesselname}. Engines boom. Must repair. Previous owner break ship. Help. ]-- END TRANSLATION"
+distress-drum-case14: "Корабль {vesselname}. Двигатели бум. Надо ремонтировать. Предыдущий владелец разбил корабль. Помощь."
 distress-drum-case14-spareparts: "I have some spare engine parts you can use. [Requires: {item-base:item.part.engine}]"
-distress-drum-case14-spareparts-success: "BEGIN TRANSLATION --[ Valid fix. Thank you. Repair more later. ]-- END TRANSLATION"
+distress-drum-case14-spareparts-success: "Действительное исправление. Спасибо. Отремонтируем позже."
 
 #Case 15
 distress-drum-case15-header: "Distress Call"
-distress-drum-case15: "BEGIN TRANSLATION --[ Spacestation {vesselname} transmit. Space rock collide outside. Take wound inflicted. Other station. Help. ]-- END TRANSLATION"
+distress-drum-case15: "Космическая станция {имя судна} передает. Космический камень сталкивается снаружи. Возьмите нанесенную рану. Другая станция. Помощь."
 distress-drum-case15-takepeople: "I can take your evacuees."
-distress-drum-case15-peoplespawn: "BEGIN TRANSLATION --[ Vacuum present. Survivor pick up needed. ]-- END TRANSLATION"
+distress-drum-case15-peoplespawn: "Вакуум присутствует. Требуется подобрать выжившего."
 distress-drum-case15-crewgone: "[i][cccccc]Hail is open but they seem to be too focused on repairs to answer[-][/i]"
 
 #Case 16
-distress-drum-case16: "BEGIN TRANSLATION --[ Hello. Station {vesselname} present. Weapons damaged. Power overload. Request {item-base:item.part.weapon}? Help? ]-- END TRANSLATION"
+distress-drum-case16: "Привет. Станция {vesselname} присутствует. Оружие повреждено. Перегрузка по мощности. Запросить {item-base:item.part.weapon}? Помощь?"
 distress-drum-case16-weaponparts: "I can give you weapon parts, sure. [Requires: 1 x {item-base:item.part.weapon}]"
-distress-drum-case16-partthanks: "BEGIN TRANSLATION --[ Thank you. Part satisfactory. ]-- END TRANSLATION"
+distress-drum-case16-partthanks: "Спасибо. Часть удовлетворительная."
 distress-drum-case16-plunder: "You just admitted you're defenseless. Pay me Ⱡ100, otherwise we'll test just how strong your hull is."
-distress-drum-case16-vesselhandin: "BEGIN TRANSLATION --[ Thank you. Movement finished. Repairs happen. ]-- END TRANSLATION"
+distress-drum-case16-vesselhandin: "Спасибо. Движение закончено. Ремонт бывает."
 distress-drum-case16-prisonershandin: "Good work. Another vessel taken from the pirates is another notch for system safety."
 
 #Distress Calls
