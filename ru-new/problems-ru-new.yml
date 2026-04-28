@@ -1,0 +1,583 @@
+problem-completestep-subheader: "Система {sysstar}"
+
+#Solar Problem ==============================================================================================================
+problem-default-solar-title: "Солнечная буря"
+problem-default-solar-step1-summary: "Помочь местным кораблям в бедствии"
+problem-default-solar-step1-desc: |
+ [h1]Солнечная буря[/h1]
+ [h2]Корабли в бедствии[/h2]
+ Местная звезда {sysstar} переживает период интенсивных колебаний. Это разрушительно сказывается на местных перевозках: солнечные вспышки бьют по едва защищённым компьютерным ядрам кораблей далеко за пределами их минимальных характеристик. Помоги местным кораблям, попавшим в [em]Бедствие[/em], запустить их вновь или перевези их пассажиров в безопасность ближайшей станции.
+
+problem-default-solar-distress1: Мы в бедствии! Наши компьютерные ядра вышли из строя из-за солнечной активности, и нам нужна помощь!
+problem-drum-solar-distress1: BEGIN TRANSLATION --[ Бедствие! Компьютерные ядра нарушены солнечной активностью. Помощь требуется! ]-- END TRANSLATION
+problem-default-solar-distress1-opt-takepeople: Тебе повезло. Я могу доставить твоих пассажиров в безопасность.
+problem-default-solar-distress1-peoplespawn: Спасибо! Мы запускаем EVA-скафандры. Подбери нас!
+problem-drum-solar-distress1-peoplespawn: BEGIN TRANSLATION --[ Благодарность! Запуск EVA-скафандров. Подбери нас! ]-- END TRANSLATION
+problem-default-solar-step1-opt-handin: Станция, я нашёл некоторых ваших людей, нуждавшихся в спасении. Готовьтесь принять их.
+problem-default-solar-step1-suc: Капитан, пассажиры приняты. Медотсек сообщает, что они в хорошем состоянии. Спасибо за помощь.
+problem-drum-solar-step1-suc: BEGIN TRANSLATION --[ Капитан, пассажиры приняты. Медотсек докладывает хорошее состояние. Спасибо за помощь. ]-- END TRANSLATION
+problem-default-solar-step1-complete: Хорошая работа. Однако проблема ещё не решена. Продолжай работать с местными властями, чтобы завершить дело.
+problem-drum-solar-step1-complete: BEGIN TRANSLATION --[ Хорошо. Проблема не решена. Работай с местными властями. ]-- END TRANSLATION
+problem-default-solar-step2-complete-reqtractor: Мне нужен трактор, можете дать?
+problem-default-solar-step2-complete-reqtractor-give: Да, вот трактор, должен подойти. Не забудь установить его на корабль.
+problem-drum-solar-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Подтверждение, трактор предоставлен. Установить на корабль. ]-- END TRANSLATION
+
+problem-default-solar-step2-summary: "Собрать и доставить данные с зондов"
+problem-default-solar-step2-desc: |
+ [h1]Солнечная буря[/h1]
+ [h2]Вопрос данных[/h2]
+ После помощи местным кораблям в бедствии непосредственная катастрофа миновала. Однако звезда грозит снова усилить активность в любой момент. Команда учёных работает над проблемой, но они до сих пор не получили данных со своих зондов. Этим учёным можно помочь: разыщи и собери данные с [em]Солнечных зондов[/em] в [em]Астероидных полях[/em] и доставь их на местную станцию для анализа.
+
+problem-default-solar-solarprobe-header: "{vesselname}"
+problem-default-solar-solarprobe-hail1: Солнечный зонд работал и непрерывно собирал данные. Буферы заполнены. Данные готовы к передаче.
+problem-default-solar-solarprobe-opt-req: Зонд, подготовь данные к передаче по моей команде. Запускай.
+problem-default-solar-solarprobe-give: Данные собраны и отправлены. Буферы очищены. Зонд отключается.
+problem-default-solar-solarprobe-hail-done: Данные уже отправлены. Буферы очищены. Невозможно воссоздать записи.
+problem-default-solar-step2-opt-handin: Станция, у меня данные с солнечных зондов готовы к передаче. Готовьтесь принять.
+problem-default-solar-step2-suc: Спасибо, капитан. Данные получены. Мы немедленно передадим их учёным.
+problem-drum-solar-step2-suc: BEGIN TRANSLATION --[ Спасибо. Капитан. Данные получить. Учёным передать немедленно. ]-- END TRANSLATION
+problem-default-solar-step2-complete: Хорошая работа, капитан. Учёные сейчас изучают данные.
+problem-drum-solar-step2-complete: BEGIN TRANSLATION --[ Хорошая работа. Капитан. Учёные изучают данные. ]-- END TRANSLATION
+
+problem-default-solar-step3-summary: "Развернуть платформы солнечной модуляции"
+problem-default-solar-step3-desc: |
+ [h1]Солнечная буря[/h1]
+ [h2]Решение найдено[/h2]
+ Данные зондов дали отличные результаты в анализе активности звезды {sysstar}. Учёные предоставили наводки, которые инженеры используют для производства Платформ солнечной модуляции — устройств, которые будут находиться на высокой солнечной орбите и помогать сохранять звезду благоприятной для космической жизни. Помоги доставить эти платформы на каждую обозначенную [em]Точку солнечного зонда[/em], каждая должна быть размещена в специально определённом учёными месте. Неразвёрнутые платформы можно найти у станции [em]Фабрика солнечных зондов[/em].
+
+problem-default-solar-solarplatform-handin1: Хорошая работа, капитан. Эта платформа на месте и готова к работе.
+problem-drum-solar-solarplatform-handin1: BEGIN TRANSLATION --[ Хорошая работа. Капитан. Платформа на месте. Готова. ]-- END TRANSLATION
+problem-default-solar-solarfactory-hail: Здравствуй, капитан. Мы можем поставить солнечные платформы для развёртывания. Их установка — твоя задача.
+problem-drum-solar-solarfactory-hail: BEGIN TRANSLATION --[ Здравствуй. Капитан. Поставка солнечной платформы доступна. Развёртывание — твоя ответственность. ]-- END TRANSLATION
+problem-default-solar-solarfactory-reqplatform: Станция, можете запустить ещё одну платформу? Я готов её буксировать.
+problem-default-solar-solarfactory-reqplatform-granted: Понял, капитан. Запускаем платформу. Удачи.
+problem-drum-solar-solarfactory-reqplatform-granted: BEGIN TRANSLATION --[ Понял. Капитан. Запуск платформы сейчас. Удачи. ]-- END TRANSLATION
+problem-default-solar-solarfactory-reqplatform-denied: Отказано, капитан. У нас ограничены ресурсы. Поблизости уже есть доступная платформа.
+problem-drum-solar-solarfactory-reqplatform-denied: BEGIN TRANSLATION --[ Отказано. Капитан. Ограниченные ресурсы. Платформа доступна рядом. ]-- END TRANSLATION
+problem-default-solar-step3-complete: Потрясающе, капитан. Все платформы развёрнуты и работают! Звезда стабилизируется. Спасибо за помощь.
+problem-drum-solar-step3-complete: BEGIN TRANSLATION --[ Потрясающе. Капитан. Все платформы развёрнуты. Работают! Звезда стабилизируется. Благодарность за помощь. ]-- END TRANSLATION
+
+problem-default-solar-opt-getbuff: Станция, я готов получить награду.
+problem-default-solar-givebuff: Конечно, капитан. Ещё раз спасибо за помощь со звездой.
+problem-drum-solar-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Music Festival ==============================================================================================================
+problem-default-musicfestival-title: "Музыкально-культурный фестиваль"
+problem-default-musicfestival-step1-summary: "Подобрать и доставить ошибочно отправленные баннеры на станцию"
+problem-default-musicfestival-step1-desc: |
+ [h1]Музыкально-культурный фестиваль[/h1]
+ [h2]Потерялись при доставке[/h2]
+ С одобрения культурного совета подготовка к музыкально-культурному фестивалю идёт полным ходом. А значит — много еды, музыки, танцев и пантомимы. Минус: организация превращается в неразбериху. Последняя проблема: человек, заказавший баннеры для фестиваля, заболел, а его заместитель отправил баннеры не туда. Теперь дорогие баннеры лежат в грузовых капсулах где угодно, кроме нужного места. Помоги наладить дело — забери груз [em]Доставка для музыкального фестиваля[/em] на ближайших станциях и доставь его в нужное место.
+
+problem-default-musicfestival-station: Ты пришёл помочь с музыкальным фестивалем? Ты в курсе всех новостей?
+problem-default-musicfestival-step1-opt-handin: Я нашёл некоторые из ваших баннеров. Готовьтесь принять.
+problem-default-musicfestival-step1-suc: Получилось. Один баннер найден и возвращён.
+problem-default-musicfestival-step1-complete: Спасибо за помощь, капитан! Ты не представляешь, во сколько обошлась бы их замена.
+
+problem-default-musicfestival-step2-summary: "Спасти застрявших музыкантов"
+problem-default-musicfestival-step2-desc: |
+ [h1]Музыкально-культурный фестиваль[/h1]
+ [h2]Пропавшие музыканты[/h2]
+ Какая катастрофа! Даже после решения проблемы с баннерами теперь оказалось, что у шаттлов музыкантов закончилось топливо. Это одни из лучших музыкантов в галактике, и они сидят в открытом космосе, медленно замерзая, — и всё ради этого мероприятия! Найди [em]Корабль с музыкантами[/em], помоги спасти этих людей и доставь их в безопасность тёплой станции с энергией.
+
+problem-default-musicfestival-distress1: Помогите! У нас закончилось топливо по пути на музыкальный фестиваль. Мы здесь замерзаем! Можете помочь?
+problem-default-musicfestival-distress1-opt-takepeople: Да, могу помочь. Готовьтесь к подбору.
+problem-default-musicfestival-distress1-peoplespawn-header: Музыкант
+problem-default-musicfestival-distress1-peoplespawn: Готовлюсь к выходу в космос. Не оставляй меня висеть.
+problem-default-musicfestival-step2-opt-handin: У меня есть несколько музыкантов для вас. Они быстро согреются.
+problem-default-musicfestival-step2-suc: Слегка замёрзший музыкант принят. Спасибо, капитан.
+problem-default-musicfestival-step2-complete: Все пропавшие музыканты найдены. Наша благодарность тебе, капитан.
+
+problem-default-musicfestival-step3-summary: "Уничтожить или откупиться от пиратов-контрафактчиков"
+problem-default-musicfestival-step3-desc: |
+ [h1]Музыкально-культурный фестиваль[/h1]
+ [h2]Бутлегеры-бандиты[/h2]
+ Может быть хуже!? Мы наконец сдвинули дело с мёртвой точки, и тут — пираты! Видимо, один из их трусливых сообщников протащил записывающее устройство на закрытые репетиции, и теперь они грозят продавать пиратские записи. Это разорит фестиваль экономически, ведь мы рассчитывали на продажу записей для покрытия расходов. Помоги найти [em]Пиратскую радиопередачу[/em] и останови эти контрафактные копии до того, как они смогут распространить записи.
+
+problem-default-musicfestival-pirateradiostation: Что тебе нужно?
+problem-default-musicfestival-pirateradiostation-opt1: Пиратская радиостанция. У вас записи, которые вам не принадлежат.
+problem-default-musicfestival-pirateradiostation-station: Так они тебя послали? Готов заплатить [b][00ccff]Ⱡ{bribecost}[-][/b]?
+problem-default-musicfestival-pirateradiostation-opt-bribe: Хорошо. Мне разрешено заплатить вам, чтобы контрафакт был уничтожен. Держи [Требуется: Ⱡ{bribecost}].
+problem-default-musicfestival-pirateradiostation-opt-spaced: Катись в космос! Я не торгуюсь с пиратской мразью. Я снесу твою передачу силой.
+problem-default-musicfestival-pirateradiostation-bribe-suc: Честная сделка. Видишь, не так уж больно было всех уважить.
+problem-default-musicfestival-pirateradiostation-bribe-fail: Ты с ума сошёл? И это ты называешь взяткой?
+problem-default-musicfestival-pirateradiostation-bribed: Я уничтожил контрафакт, теперь убирайся отсюда.
+problem-default-musicfestival-step3-complete: Хорошая работа, капитан! С уничтожением контрафакта и при идущем фестивале это стало сокрушительным успехом! Огромное спасибо.
+
+#music problem solved
+problem-default-musicfestival-station-aftermath: Спасибо за всю помощь! Наслаждайся музыкальным фестивалем!
+trader-musicfestival: Торговец фестиваля
+
+problem-default-musicfestival-opt-getbuff: Станция, я готов получить награду.
+problem-default-musicfestival-givebuff: Не можем нарадоваться твоей помощи в спасении музыкального фестиваля. Держи.
+problem-drum-musicfestival-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Mutiny ==============================================================================================================
+problem-default-mutiny-title: "Мятежный экипаж"
+problem-default-mutiny-step1-summary: "Найти и проанализировать источники сигналов"
+problem-default-mutiny-step1-desc: |
+ [h1]Мятежный экипаж[/h1]
+ [h2]Что это за сигналы?[/h2]
+ В системе участились странные сигналы, пересекающие пространство. Добавь к этому, что они тщательно зашифрованы, и местное командование начинает хмуриться. Они хотят расследовать дело, прежде чем докладывать в Высшее командование Тайсерой. Последние известные позиции передач отмечены как [em]Точка сигнала[/em] — их следует проверить.
+problem-default-mutiny-step1-proximity: "Заключено во льду? Попробуй извлечь его из ледяной оболочки, осторожно, не повреди."
+
+problem-default-mutiny-freedbeacon-header: "{vesselname}"
+problem-default-mutiny-freedbeacon-text: ОБНАРУЖЕН НЕСАНКЦИОНИРОВАННЫЙ ДОСТУП *bzzt* [i][cccccc]{vesselname} самоуничтожается, пока ты пытаешься его исследовать. Однако ты успел зафиксировать местоположение другого сигнала.[/i][-]
+problem-default-mutiny-step1-complete: "Местное командование благодарит тебя за помощь. Скоро с тобой свяжутся."
+problem-default-mutiny-step1-complete-reqtractor: Мне нужен трактор, можете дать?
+problem-default-mutiny-step1-complete-reqtractor-give: Да, вот трактор, должен подойти. Не забудь установить его на корабль.
+
+problem-default-mutiny-step2-summary: "Обездвижить и доставить корабли для допроса"
+problem-default-mutiny-step2-desc: |
+ [h1]Мятежный экипаж[/h1]
+ [h2]Тревожные тенденции[/h2]
+ Намеренно спрятанное передающее оборудование, скрытое в ледяных астероидах? Очень тревожно. Местное командование докладывает: несколько кораблей активны, но не реагируют на последние приказы. Возможно, они причастны ко всему этому. Найди эти [em]Несотрудничающие корабли[/em], при необходимости обездвижь их и доставь на буксире на базу для расследования.
+
+problem-default-mutiny-step2-opt-handin: "У меня корабль, готовый к обработке."
+problem-default-mutiny-step2-handin-start: "Отлично. Тащи его сюда для обработки."
+problem-default-mutiny-step2-complete: "Все корабли учтены. Мы обработаем экипаж и докопаемся до истины."
+problem-default-mutiny-step3-summary: "Перевезти и доставить космодесант"
+problem-default-mutiny-step3-desc: |
+ [h1]Мятежный экипаж[/h1]
+ [h2]Так, до этого дошло[/h2]
+ Мятеж! Только этим объясняется происходящее в системе. Наша собранная разведка указывает: несколько экипажей подняли мятеж и используют заброшенные шахтёрские аванпосты для сбора сил. Высшее командование Тайсерой проинформировано, и в ответ санкционировало использование космодесанта для штурма и казни любых мятежных экипажей на станциях. Подбери и доставь этих десантников из любой верной станции Тайсерой к [em]Скрытой базе[/em] и помоги покончить с этим мятежом раз и навсегда.
+
+problem-default-mutiny-opt-reqmarines: "Я готов перевозить космодесант."
+problem-default-mutiny-reqmarines-peoplespawn: "Космодесант готов к подбору."
+problem-default-mutiny-reqmarines-hasmarines: "Извини, капитан, но похоже, у тебя уже есть десантники на борту."
+problem-default-mutiny-step3-complete: "Отличная работа, капитан. Мятежные псы повержены. Местное командование благодарит."
+problem-default-mutiny-abandonedship-hail-header: ЗАБРОШЕННОЕ СУДНО
+problem-default-mutiny-abandonedship-hail: [i][cccccc]Канал связи открыт, но ответа нет. Похоже, корабль полностью покинут.[-][/i]
+problem-default-mutiny-mutineersurrender-text: Ладно, ладно! Ты нас взял. Только не подрывай нас!
+problem-default-mutiny-ship-handin1: Спасибо за доставку корабля. Будет обработан.
+problem-default-mutiny-base-hail1: Что тебе нужно?
+problem-default-mutiny-base-opt-sendmarines: Станция! Прекращайте сопротивление и готовьтесь к абордажу!
+problem-default-mutiny-base-infilsuccess: Капитан. Мои люди и я успешно захватили станцию. Спасибо за подброс.
+problem-default-mutiny-base-sendmarines-sent: Десант готов и начинает абордаж.
+
+problem-default-mutiny-opt-getbuff: Станция, я готов получить награду.
+problem-default-mutiny-givebuff: После того, как ты разобрался с мятежом, ты заслужил каждую частицу нашей благодарности.
+problem-drum-mutiny-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Trade Gone Aray ==============================================================================================================
+problem-default-tradesgoneawry-title: "Сорвавшиеся торговые переговоры"
+problem-default-tradesgoneawry-step1-summary: "Связаться с неизвестными судами в астероидных полях"
+problem-default-tradesgoneawry-step1-desc: |
+ [h1]Сорвавшиеся торговые переговоры[/h1]
+ [h2]Неизвестные гости[/h2]
+ Губернатор системы недавно вёл торговые переговоры с соседней системой о крайне нужных правах на сырьё. Дела шли хорошо последние недели, как вдруг связь с торговой делегацией системы оборвалась. А в последние дни в нашей системе замечены неопознанные корабли с траекториями полёта со стороны соседней системы — они посещают астероидные поля. Нам нужна помощь, чтобы выяснить, связаны ли эти события. Помоги установить диалог с этими гостями, попытавшись связаться с ними. Связывайся с каждым [em]Неизвестным кораблём[/em], встреченным в [em]Астероидном поле[/em].
+
+problem-default-tradesgoneawry-step1-complete: "Хорошая работа, капитан. Мы начинаем видеть закономерность в этих контактах."
+problem-drum-tradesgoneawry-step1-complete: "BEGIN TRANSLATION --[ Хорошие результаты. Закономерность проявляется. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-unknownship-hail: *вспышка статики, они закрывают связь*
+
+problem-default-tradesgoneawry-step2-summary: "Обездвижить неизвестные суда и арестовать экипаж"
+problem-default-tradesgoneawry-step2-desc: |
+ [h1]Сорвавшиеся торговые переговоры[/h1]
+ [h2]Больше вопросов, чем ответов[/h2]
+ Несмотря на наши попытки связаться с этими неизвестными кораблями, они избегают контакта. Кабинет губернатора требует ответов. Это прелюдия к вторжению? Были ли переговоры лишь тактикой, чтобы проверить нашу находчивость? Нам нужно разобраться. Нужно действовать жёстче и получить ответы. Помоги получить эти ответы — обездвиживай эти [em]Иностранные корабли[/em] и арестовывай их экипаж для допроса.
+
+
+problem-default-tradesgoneawry-step2-opt-handin: "У меня экипаж для допроса"
+problem-default-tradesgoneawry-step2-suc: "Спасибо. Дальше мы сами."
+problem-drum-tradesgoneawry-step2-suc: "BEGIN TRANSLATION --[ Благодарность. Ответственность принята. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete: "Спасибо за помощь. В кабинете губернатора уже ждут следователи."
+problem-drum-tradesgoneawry-step2-complete: "BEGIN TRANSLATION --[ Благодарность за помощь. Следователи ждут в кабинете губернатора. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step2-complete-reqtractor: Мне нужен трактор, можете дать?
+problem-default-tradesgoneawry-step2-complete-reqtractor-give: Да, вот трактор, должен подойти. Не забудь установить его на корабль.
+problem-drum-tradesgoneawry-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Подтверждение, трактор предоставлен. Установить на корабль. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-shipsurrender-text: Хорошо. Нам с тобой явно не справиться. Мы сдаёмся.
+problem-drum-tradesgoneawry-shipsurrender-text: BEGIN TRANSLATION --[ Понятно. Признана неполноценность. Сдача начата. ]-- END TRANSLATION
+problem-default-tradesgoneawry-shipsurrender-opt-takepeople: Я заберу вас на допрос. Готовьтесь к транспортировке.
+problem-default-tradesgoneawry-shipsurrender-peoplespawn: Понятно. Наш экипаж готов к подбору.
+problem-drum-tradesgoneawry-shipsurrender-peoplespawn: BEGIN TRANSLATION --[ Понятно. Экипаж готов к изъятию. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-step3-summary: "Найти и изъять склады оружия"
+problem-default-tradesgoneawry-step3-desc: |
+ [h1]Сорвавшиеся торговые переговоры[/h1]
+ [h2]Предательство соседей[/h2]
+ Допросы захваченных экипажей пролили свет. Кабинет губернатора выяснил, что соседняя система всё это время накапливала оружие в нашей системе, пока шли переговоры. Какое предательство! Помоги ликвидировать эти склады — изыми их из [em]Астероидных полей[/em], где они спрятаны, и доставь на наши станции.
+
+problem-default-tradesgoneawry-step3-opt-handin: "У меня есть оружие для сдачи."
+problem-default-tradesgoneawry-handinweapons-ack: "Понял, готовься к передаче."
+problem-drum-tradesgoneawry-handinweapons-ack: "BEGIN TRANSLATION --[ Понятно. Готовься к передаче. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-step3-complete: "Хорошая работа, капитан. Кабинет губернатора удовлетворён: мы сорвали план вторжения. Львиная доля заслуги — твоя."
+problem-drum-tradesgoneawry-step3-complete: "BEGIN TRANSLATION --[ Большой вклад. План вторжения сорван. Губернатор доволен. Большая благодарность. ]-- END TRANSLATION"
+problem-default-tradesgoneawry-weapcontainer-handin1: Контейнер с оружием принят.
+problem-drum-tradesgoneawry-weapcontainer-handin1: BEGIN TRANSLATION --[ Контейнер с оружием принят. ]-- END TRANSLATION
+
+problem-default-tradesgoneawry-opt-getbuff: Станция, я готов получить награду.
+problem-default-tradesgoneawry-givebuff: С твоей помощью мы остановили агрессивных соседей. Ты заслуживаешь этого и большего.
+problem-drum-tradesgoneawry-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Ancient Relics ==============================================================================================================
+problem-default-ancientrelics-title: "Древние реликвии войны"
+problem-default-ancientrelics-step1-summary: "Уничтожить странно светящиеся астероиды"
+problem-default-ancientrelics-step1-desc: |
+ [h1]Древние реликвии войны[/h1]
+ [h2]Случайное открытие[/h2]
+ Известно, что мы не первый вид, обитающий в этом регионе космоса. Археологи годами находят их следы. Кто это был — мы не знаем точно, но знаем, что их давно нет. Оказывается, не все эти места — просто культурные диковинки. Недавняя добыча, по-видимому, активировала какой-то... отклик, что вызвало серьёзные повреждения от взрывов по всей системе. Мы идентифицировали ещё несколько таких вооружённых астероидов в наших [em]Шахтёрских аванпостах[/em], их нужно уничтожить, пока они не нанесли ещё больше вреда. Помоги уничтожить эти [em]Странно светящиеся астероиды[/em], пока никто больше не пострадал.
+
+
+problem-default-ancientrelics-step1-complete: "Похоже, все проблемные астероиды нейтрализованы. Хорошая работа."
+problem-drum-ancientrelics-step1-complete: "BEGIN TRANSLATION --[ Проблема с астероидами решена. Хорошая работа. ]-- END TRANSLATION"
+
+problem-default-ancientrelics-step2-summary: "Перепрограммировать инопланетные аванпосты"
+problem-default-ancientrelics-step2-desc: |
+ [h1]Древние реликвии войны[/h1]
+ [h2]От «удивления» к «тревоге»[/h2]
+ Уничтожение опознанных заминированных астероидов сняло непосредственную угрозу. Однако усилилась активность в инопланетных диапазонах связи, которых мы раньше не видели. В долгое время считавшихся пустыми областях обнаружились инопланетные аванпосты, ретранслирующие этот сигнал. Их нужно остановить, пока не случилось то, что должно случиться. Помоги перепрограммировать эти [em]Древние ретрансляторы[/em], чтобы остановить их вещание.
+
+problem-default-ancientrelics-step2-complete: "С остановленным вещанием это, надеюсь, отсечёт проблему до её ухудшения."
+problem-drum-ancientrelics-step2-complete: "BEGIN TRANSLATION --[ Вещание остановлено. Проблема не ухудшилась. ]-- END TRANSLATION"
+
+problem-default-ancientrelic-relay-hail1: "*короткий всплеск статики, за которым следуют повторяющиеся гудки*"
+problem-default-ancientrelic-relay-opt-beginhack: --Передать встречный сигнал в старом двоичном стиле--
+problem-default-ancientrelic-relay-hacksuc: "*короткое всплесковое сообщение затихает*. Ретрансляторная станция перепрограммирована. Ещё один успех."
+
+problem-default-ancientrelics-step3-summary: "Уничтожить корабли-дроны"
+problem-default-ancientrelics-step3-desc: |
+ [h1]Древние реликвии войны[/h1]
+ [h2]Что-то пробуждается[/h2]
+ Ретрансляторные аванпосты успешно перепрограммированы. Они больше не вещают. Однако то, что они передавали, видимо, сработало: мы наблюдаем космический трафик там, где его никогда не было. Дальние сканы предполагают, что это корабли-дроны, долго спавшие, теперь активные. Они могут оказать опустошительное воздействие, чего мы не можем допустить. Помоги уничтожить [em]Древние корабли-дроны[/em], пока они не натворили бед в системе.
+
+problem-default-ancientrelics-step3-complete: "Эти корабли точно дали бой. Нам повезло, что их создателей больше нет. Спасибо за помощь, капитан."
+problem-drum-ancientrelics-step3-complete: "BEGIN TRANSLATION --[ Корабли дрались упорно. Повезло, создателей нет. Спасибо, Капитан. ]-- END TRANSLATION"
+
+problem-default-ancientrelics-opt-getbuff: Станция, я готов получить награду.
+problem-default-ancientrelics-givebuff: После всех бед, что натворили эти древние машины, мы рады это вручить.
+problem-drum-ancientrelics-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Space Wasp Infestation ==============================================================================================================
+problem-default-spacewasps-title: "Нашествие космических ос"
+problem-default-spacewasps-step1-summary: "Найти и уничтожить космические ульи"
+problem-default-spacewasps-step1-desc: |
+ [h1]Нашествие космических ос[/h1]
+ [h2]Что это за гул?[/h2]
+ Поступают сообщения о странном гуле, резонирующем в производственном оборудовании и мешающем работе, как сообщают рабочие. Это проблема, ведь данный участок производства жизненно важен для поддержания выработки, установленной Управлением по добропорядочности и пропускной способности производства. Помоги обследовать [em]Производственные станции[/em] и, по возможности, устранить причину этого гула во всей системе.
+
+problem-default-spacewasps-step1-complete: Эти заводские рабочие будут вечно благодарны. Никто не любит иметь дело с космическими осами.
+problem-drum-spacewasps-step1-complete: BEGIN TRANSLATION --[ Рабочие счастливы. Ос нет. ]-- END TRANSLATION
+problem-default-spacewasps-clearstation-header: Очищенная станция
+
+problem-default-spacewasps-clearstation-header: Станция без ос
+problem-default-spacewasps-clearstation-text: Спасибо, капитан. Ты не представляешь, какое это облегчение — избавиться от этих ос.
+
+problem-default-spacewasps-step2-summary: "Победить рабочих и добыть желе"
+problem-default-spacewasps-step2-desc: |
+ [h1]Нашествие космических ос[/h1]
+ [h2]Маточное желе — обязательно[/h2]
+ Это не первый раз, когда космических ос замечают в этом квадранте. К сожалению, и не последний. Раз уж так — давай воспользуемся возможностью добыть Маточное желе. У этого желе странные биоморфные свойства, ради которых любой учёный готов отдать левую руку. Лети в любое [em]Астероидное поле[/em], найди немного этого желе, добудь его и доставь на ближайшую станцию.
+
+problem-default-spacewasps-step2-opt-handin: У меня есть желе для сдачи.
+problem-default-spacewasps-step2-suc: Желе принято. Выглядит вкусно.
+problem-drum-spacewasps-step2-suc: BEGIN TRANSLATION --[ Желе принято. Выглядит хорошо. ]-- END TRANSLATION
+problem-default-spacewasps-step2-complete: Хорошая работа, капитан. У нас желе хватит на годы работы.
+problem-drum-spacewasps-step2-complete: BEGIN TRANSLATION --[ Капитан, хорошая работа. Желе на годы. ]-- END TRANSLATION
+
+problem-default-spacewasps-step3-summary: "Уничтожить королеву и улей"
+problem-default-spacewasps-step3-desc: |
+ [h1]Нашествие космических ос[/h1]
+ [h2]Королева в ярости[/h2]
+ Королевы ос пришли в движение. Именно так. Их несколько. Наши специалисты предполагают, что они узнали о краже Маточного желе и теперь свирепствуют. Каждая королева, по сообщениям, движется на варпе со своими личными ульями и королевской свитой. Останови одну из них сейчас, пока она не нанесла необратимый ущерб.
+
+problem-default-spacewasps-step3-complete: Спасибо за всю работу, капитан. Эти космические осы повержены. Надеюсь, они никогда не вернутся. Ох... ненавижу это жужжание.
+problem-drum-spacewasps-step3-complete: BEGIN TRANSLATION --[ Спасибо, Капитан. Осы исчезли. Надеюсь, навсегда. Ненавижу жужжание. ]-- END TRANSLATION
+problem-default-spacewasps-hail: [i][cccccc]Каналы связи открыты, но всё, что слышно, — интенсивный гул разъярённых космических ос[-][/i]
+
+problem-default-spacewasps-opt-getbuff: Станция, я готов получить награду.
+problem-default-spacewasps-givebuff: Космоосы — не повод для шуток. С твоей помощью они истреблены, как и положено. Прими нашу благодарность.
+problem-drum-spacewasps-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Rogue Scientist Breeding Eugenic Abherrations ==============================================================================================================
+problem-default-rogueeugenics-title: "Учёный-отступник выводит евгенические аберрации"
+problem-default-rogueeugenics-step1-summary: "Связаться и забрать журналы данных станций"
+problem-default-rogueeugenics-step1-desc: |
+ [h1]Учёный-отступник выводит евгенические аберрации[/h1]
+ [h2]Тишина на научном фронте[/h2]
+ Несколько специализированных исследовательских станций недавно затихли. Это не совсем неслыханно, но даже их каналы обмена данными едва передают последние результаты, что необычно. Ты можешь помочь, посетив каждый [em]Исследовательский комплекс[/em] и забрав их журналы данных для анализа.
+
+problem-default-rogueeugenics-step1-opt-handin: Я забрал журналы данных. Готовьтесь принять.
+problem-default-rogueeugenics-step1-suc: Спасибо, капитан. Журналы получены и будут обработаны.
+problem-drum-rogueeugenics-step1-suc: BEGIN TRANSLATION --[ Журналы получены. Обработка идёт, Капитан. ]-- END TRANSLATION
+problem-default-rogueeugenics-step1-complete: Получилось. Все журналы забраны.
+problem-drum-rogueeugenics-step1-complete: BEGIN TRANSLATION --[ Все журналы забраны. Хорошо сделано. ]-- END TRANSLATION
+
+problem-default-rogueeugenics-step2-summary: "Принудить подозреваемых грязных копов сдаться для допроса"
+problem-default-rogueeugenics-step2-desc: |
+ [h1]Учёный-отступник выводит евгенические аберрации[/h1]
+ [h2]Коррупция и взяточничество[/h2]
+ Журналы данных станций ещё анализируются, но похоже, что все они были посещены несколькими местными космическими копами до того, как всё пошло наперекосяк. Мы подозреваем, что эти копы берут взятки и причастны к некоему правоприменению или другой нелегальной деятельности. Ты можешь помочь, доставив этих космокопов, патрулирующих под видом [em]Полицейский корабль[/em], для допроса.
+
+problem-default-rogueeugenics-step2-opt-handin: Станция, у меня для вас есть несколько грязных копов.
+problem-default-rogueeugenics-step2-suc: Спасибо, капитан. Мы докопаемся до сути.
+problem-drum-rogueeugenics-step2-suc: BEGIN TRANSLATION --[ Заключённый принят. Спасибо, Капитан. ]-- END TRANSLATION
+problem-default-rogueeugenics-step2-complete: Хорошая работа. Достаточно грязных копов задержано. Скоро мы их обработаем.
+
+problem-default-rogueeugenics-step3-summary: "Найти и уничтожить био-механоидные чудовища"
+problem-default-rogueeugenics-step3-desc: |
+ [h1]Учёный-отступник выводит евгенические аберрации[/h1]
+ [h2]Серьёзно и смертельно[/h2]
+ Оказывается, эти космокопы и правда были грязными! Они брали взятки, чтобы смотреть в другую сторону, а порой даже доставляли запрещённые био-органические материалы, которые использовали учёные. Теперь мы подозреваем, что эти учёные «выводили» био-механоидные корабли. Один из этих криминальных копов смог рассказать нам о нескольких отдалённых астероидных регионах, которые могут использовать учёные. Вернись в [em]Исследовательские комплексы[/em], которые ты посещал ранее, и уничтожь любых чудовищ, которых найдёшь.
+
+problem-default-rogueeugenics-step3-complete: Получилось. С био-механоидными кораблями покончено, к огромному облегчению всех.
+problem-drum-rogueeugenics-step3-complete: BEGIN TRANSLATION --[ С био-механоидными кораблями покончено. Все рады. Хорошо сделано. ]-- END TRANSLATION
+
+problem-default-rogueeugenics-lab-hail1: Здравствуй, капитан. Что привело тебя сюда?
+problem-drum-rogueeugenics-lab-hail1: BEGIN TRANSLATION --[ Здравствуй. Капитан здесь. Цель? ]-- END TRANSLATION
+problem-default-rogueeugenics-lab-opt-req: Лаборатория, где ваши данные?
+problem-default-rogueeugenics-lab-give: Капитан, минуту, проверяю твой допуск... Хорошо, вот данные. Можешь идти.
+problem-drum-rogueeugenics-lab-give: BEGIN TRANSLATION --[ Капитан, ждать. Проверка допуска... Готово. Данные отправлены. Иди. ]-- END TRANSLATION
+problem-default-rogueeugenics-lab-hail-done: Мы уже недавно получили и загрузили данные. Передать ещё раз сейчас не можем.
+problem-drum-rogueeugenics-lab-hail-done: BEGIN TRANSLATION --[ Данные получены недавно. Передачи сейчас нет. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-hail1: Сигнал принят. Что происходит?
+problem-drum-rogueeugenics-police-hail1: BEGIN TRANSLATION --[ Сигнал принят. Доклад? ]-- END TRANSLATION
+problem-default-rogueeugenics-police-opt-question: Офицер, не возражаете ответить на пару вопросов?
+problem-default-rogueeugenics-police-surrender-text: Ладно, ладно, ты меня взял. Сдаюсь.
+problem-drum-rogueeugenics-police-surrender-text: BEGIN TRANSLATION --[ Ладно, я сдаюсь. Сдача. ]-- END TRANSLATION
+problem-default-rogueeugenics-police-opt-takepeople: Выходи из корабля, я тебя забираю.
+problem-default-rogueeugenics-police-peoplespawn: Ладно, только не делай мне больно. Буду сотрудничать.
+problem-drum-rogueeugenics-police-peoplespawn: BEGIN TRANSLATION --[ Сдача задействована. Сотрудничество подразумевается. ]-- END TRANSLATION
+
+problem-default-rogueeugenics-opt-getbuff: Станция, я готов получить награду.
+problem-default-rogueeugenics-givebuff: Прими нашу благодарность за нелёгкий труд по разборке с этими научными мерзостями.
+problem-drum-rogueeugenics-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Extra Solar Energy Ribbon ==============================================================================================================
+problem-default-extrasolarribbon-title: "Внесолнечная энергетическая лента"
+problem-default-extrasolarribbon-step1-summary: "Собрать и доставить записи журналов кораблей"
+problem-default-extrasolarribbon-step1-desc: |
+ [h1]Внесолнечная энергетическая лента[/h1]
+ [h2]Корабли, разбитые лентой[/h2]
+ Сообщения о кораблях в бедствии резко участились. Местные власти не уверены в причине и просят помощи у местных капитанов. Посети [em]Сигналы бедствия[/em] и собери всю доступную разведданную.
+
+problem-default-extrasolarribbon-step1-opt-handin: Станция, у меня есть журналы для разбора.
+problem-default-extrasolarribbon-step1-suc: Капитан, журналы получены. Спасибо за помощь. Отдадим яйцеголовым, они сразу займутся.
+problem-drum-extrasolarribbon-step1-suc: BEGIN TRANSLATION --[ Капитан, журналы получены. Спасибо за помощь. Яйцеголовые работают сейчас. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step1-complete: Хорошая работа, капитан. Ты сделал больше, чем должен был. Скоро у нас будут ответы на эту проблему.
+problem-drum-extrasolarribbon-step1-complete: BEGIN TRANSLATION --[ Хорошая работа, Капитан. Ты делаешь больше положенного. Ответы скоро. ]-- END TRANSLATION
+problem-default-extrasolarribbon-log: Журнал описывает последние моменты корабля до того, как энергетическая лента пробила его корпус.
+
+problem-default-extrasolarribbon-step2-summary: "Доставить гуманитарные припасы"
+problem-default-extrasolarribbon-step2-desc: |
+ [h1]Внесолнечная энергетическая лента[/h1]
+ [h2]Нужны припасы[/h2]
+ Ситуация в системе ухудшается всё быстрее. Странные энергетические показания появляются почти везде, повреждаются даже станции. Мы просим доступных капитанов помочь перевезти припасы из [em]Зоны помощи[/em] на [em]Нуждающиеся станции[/em].
+
+problem-default-extrasolarribbon-step2-opt-handin: Вот, возьмите эти припасы, чтобы дела снова пошли.
+problem-default-extrasolarribbon-step2-suc: Спасибо за гуманитарные припасы!
+problem-drum-extrasolarribbon-step2-suc: BEGIN TRANSLATION --[ Припасы приняты. Операции продолжаются. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-complete: Капитан, доставленные тобой припасы принесут огромную пользу всей системе.
+problem-drum-extrasolarribbon-step2-complete: BEGIN TRANSLATION --[ Капитан, припасы помощи дают большую пользу. По всей системе. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-complete-reqtractor: Мне нужен трактор, можете дать?
+problem-default-extrasolarribbon-step2-complete-reqtractor-give: Да, вот трактор для тебя.
+problem-drum-extrasolarribbon-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Трактор. Здесь. Да. ]-- END TRANSLATION
+problem-default-extrasolarribbon-reliefcentral: Здравствуй, капитан. Это Штаб помощи. Что тебе нужно?
+problem-drum-extrasolarribbon-reliefcentral: BEGIN TRANSLATION --[ Капитан. Штаб помощи на связи. Что нужно? ]-- END TRANSLATION
+problem-default-extrasolarribbon-reliefcentral-opt-req: Штаб помощи, я здесь, чтобы забрать припасы для доставки.
+problem-default-extrasolarribbon-reliefcentral-give: Подожди. Вот припасы. О, и капитан, продолжай в том же духе.
+problem-drum-extrasolarribbon-reliefcentral-give: BEGIN TRANSLATION --[ Припасы идут. Капитан, хорошая работа. ]-- END TRANSLATION
+problem-default-extrasolarribbon-distressstation: С момента инцидента было довольно тяжело. Есть хорошие новости?
+problem-drum-extrasolarribbon-distressstation: BEGIN TRANSLATION --[ Тяжёлое время с инцидента. Хорошие новости? ]-- END TRANSLATION
+
+problem-default-extrasolarribbon-step3-summary: "Доставить детали несобранного дефлектора"
+problem-default-extrasolarribbon-step3-desc: |
+ [h1]Внесолнечная энергетическая лента[/h1]
+ [h2]У учёных есть идея[/h2]
+ Учёные наконец определили причину всего хаоса в системе. Не слишком далеко за пределами солнечной системы проходит внесолнечная лента, которая и вызывает все проблемы. Мы разработали стратегию по отражению излучения, но нужны умелые капитаны, чтобы собрать и смонтировать устройство. Нужно подобрать детали [em]Антигравитонного дефлектора[/em] из каждого [em]Пункта получения деталей[/em] и доставить их на [em]Площадку сборки антигравитонного дефлектора[/em]. После сборки этой машины она должна обеспечить защиту солнечной системы, пока энергетическая лента не уйдёт достаточно далеко обратно в межзвёздное пространство.
+
+problem-default-extrasolarribbon-step3-complete: Хорошая работа! Солнечная лента отправлена обратно в дальний космос благодаря твоему труду. Система снова в безопасности.
+problem-drum-extrasolarribbon-step3-complete: BEGIN TRANSLATION --[ Энергетическая лента в космосе. Безопасная система. Хорошая работа! ]-- END TRANSLATION
+
+problem-default-extrasolarribbon-part-handin: [i]Деталь начинает разворачиваться в финальную конфигурацию[/i]
+
+problem-default-extrasolarribbon-opt-getbuff: Станция, я готов получить награду.
+problem-default-extrasolarribbon-givebuff: Капитан, с отступлением энергетической ленты мы можем вручить тебе это в благодарность.
+problem-drum-extrasolarribbon-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Alien Settler Encroachment ==============================================================================================================
+problem-default-foreignencroachment-title: "Вторжение инопланетных поселенцев"
+problem-default-foreignencroachment-step1-summary: "Уничтожить вторгшихся шахтёров"
+problem-drum-foreignencroachment-step1-summary: "Уничтожить вторгшихся шахтёров"
+problem-drum-foreignencroachment-step1-desc: |
+ [h1]Вторжение инопланетных поселенцев[/h1]
+ BEGIN TRANSLATION --[ Не-друминенс сборщики руды обнаружены на территории. [em]Шахтёрская активность[/em] обнаружена, требуется уничтожение сборщиков руды. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-step1-complete: BEGIN TRANSLATION --[ Хорошая работа. Сборщики руды истреблены. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-step2-summary: "Уничтожить вторгшиеся колонизаторские флоты"
+problem-drum-foreignencroachment-step2-summary: "Уничтожить вторгшиеся колонизаторские флоты"
+problem-drum-foreignencroachment-step2-desc: |
+ [h1]Вторжение инопланетных поселенцев[/h1]
+ BEGIN TRANSLATION --[ Не-друминенс заселители обнаружены, колонизируют. Защищённая Друминенс область пространства, недоступная для не-друминенс заселителей. Уничтожение [em]Вторгшихся колонизаторских флотов[/em] поощряется Иерархией Друминенс. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-step2-complete: BEGIN TRANSLATION --[ Иерархия Друминенс довольна. Заселители истреблены. ]-- END TRANSLATION
+problem-default-foreignencroachment-colonyship-text: Эй! Мы простые поселенцы, ищем новый мир для колонизации.
+problem-default-foreignencroachment-colonyship-opt-leave: Разворачивай корабль, или столкнёшься с последствиями вторжения в защищённое пространство.
+problem-default-foreignencroachment-colonyship-leaving: Хорошо! Мы покинем район, но знай — много молодых семей будут раздавлены этим.
+
+problem-default-foreignencroachment-step3-summary: "Уничтожить военную поддержку колонистов"
+problem-drum-foreignencroachment-step3-summary: "Уничтожить военную поддержку колонистов"
+problem-drum-foreignencroachment-step3-desc: |
+ [h1]Вторжение инопланетных поселенцев[/h1]
+ BEGIN TRANSLATION --[ Не-друминенс боевики обнаружены. Эскорт заселителей — фактор отрицания для интересов друминенс. [em]Вторгшийся военный флот[/em] — требуется уничтожение раз и навсегда. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Боевой флот истреблён. Работа выполнена удовлетворительно. ]-- END TRANSLATION
+problem-drum-foreignencroachment-step3-complete: BEGIN TRANSLATION --[ Боевой флот истреблён. Работа выполнена удовлетворительно. ]-- END TRANSLATION
+
+problem-default-foreignencroachment-opt-getbuff: Станция, я готов получить награду.
+problem-drum-foreignencroachment-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Juice Smugglers ==============================================================================================================
+problem-default-drugsmugglers-title: "Контрабандисты Сока"
+problem-default-drugsmugglers-step1-summary: "Расследовать подозрительные корабли и запугать их"
+problem-default-drugsmugglers-step1-desc: |
+ [h1]Контрабандисты Сока[/h1]
+ [h2]Сок — это проблема[/h2]
+ Знаешь, что такое Сок? Это набирающий популярность наркотик. Шахтёры особенно к нему пристрастны, как и тусовщики, желающие гулять часами. Однако местная контора хочет это прекратить. Мы знаем, что наркотик производят пираты, но не уверены, как он попадает на станции. Новый подход: останавливать все грузовые корабли до их швартовки и разгрузки. Помоги в этом — перехватывай грузовые флоты и допрашивай любой [em]Подозрительный корабль[/em]. Посмотрим, удастся ли нам собрать разведданные.
+
+problem-default-drugsmugglers-step1-complete: Контрабандисты Сока получили по заслугам. Хорошая работа.
+problem-drum-drugsmugglers-step1-complete: BEGIN TRANSLATION --[ Контрабандисты Сока наказаны. Хорошая работа. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-step2-summary: "Найти и устроить рейд на известные точки наркоторговли в поясе"
+problem-default-drugsmugglers-step2-desc: |
+ [h1]Контрабандисты Сока[/h1]
+ [h2]Доставка Сока[/h2]
+ Предыдущая часть операции прошла успешно. С твоей помощью мы уничтожили ряд партий Сока и получили наводки на места производства этой дряни в системе. Следующий шаг — рейд на пункты распространения по наводкам с грузовиков. Космической полиции нужна помощь в проведении этих рейдов. Подбери агентов на [em]Станции[/em] и доставь их в [em]Известная точка наркоторговли[/em] для рейда на станции.
+
+problem-default-drugsmugglers-opt-reqpolice: Я готов перевозить полицию. Отправляйте их.
+problem-default-drugsmugglers-reqpolice-haspolice: У тебя уже есть полиция на борту.
+problem-drum-drugsmugglers-reqpolice-haspolice: BEGIN TRANSLATION --[ Полиция на борту. Уже там. ]-- END TRANSLATION
+problem-default-drugsmugglers-reqpolice-peoplespawn: Полиция готова к подбору.
+problem-default-drugsmugglers-step2-complete: Да! Поймали этих негодяев. Хорошая работа, капитан. Спасибо за помощь.
+problem-drum-drugsmugglers-step2-complete: BEGIN TRANSLATION --[ Негодяи пойманы. Хорошая работа, Капитан. Благодарность за помощь. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-step3-summary: "Уничтожить запасы химикатов"
+problem-default-drugsmugglers-step3-desc: |
+ [h1]Контрабандисты Сока[/h1]
+ [h2]Химическая инженерия Сока[/h2]
+ Дела идут неплохо, но мы ещё в одном крупном шаге от прекращения проблемы Сока в системе. После рейдов мы получили информацию о торговом маршруте, ведущем к месту производства. Найди его в [em]Секретной нарколаборатории[/em] и лиши их возможности производить ещё, уничтожив все [em]Прекурсоры химикатов[/em].
+
+problem-default-drugsmugglers-step3-complete: Ты снова сделал это. Ещё одна операция Сока остановлена.
+problem-drum-drugsmugglers-step3-complete: BEGIN TRANSLATION --[ Операция Сока остановлена. Сделано снова. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-ship-innocent-hail: Здравствуй, капитан, чем могу помочь?
+problem-drum-drugsmugglers-ship-innocent-hail: BEGIN TRANSLATION --[ Здравствуй, Капитан. Помощь нужна? ]-- END TRANSLATION
+problem-default-drugsmugglers-ship-opt-interrogate: Знаешь, откуда идёт Сок?
+problem-default-drugsmugglers-ship-innocent-reply: Клянусь, не знаю! Я просто вожу автоматическое фермерское оборудование!
+problem-drum-drugsmugglers-ship-innocent-reply: BEGIN TRANSLATION --[ Клянусь. Не знаю. Только перевозчик автоматического фермерского оборудования. ]-- END TRANSLATION
+problem-default-drugsmugglers-ship-aggro-hail:  Здравствуй, капитан, чем могу помочь?
+problem-drum-drugsmugglers-ship-aggro-hail: BEGIN TRANSLATION --[ Что хочешь знать? ]-- END TRANSLATION
+problem-default-drugsmugglers-shipsurrender-text: О нет! Ты меня взял. Не выдержу избиения. Сдаюсь и расскажу всё!
+problem-drum-drugsmugglers-shipsurrender-text: BEGIN TRANSLATION --[ О нет! Взят. Избиение невыносимо. Сдача. Всё расскажу! ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-hail1: Кишка тонка с нами связываться. Мы контролируем наркотики в этом секторе космоса.
+problem-drum-drugsmugglers-drugoutpost-hail1: BEGIN TRANSLATION --[ Кишка тонка взять нас. Контроль наркотиков в этом секторе космоса. ]-- END TRANSLATION
+problem-default-drugsmugglers-drugoutpost-opt-sendpolice: Полиция направлена. Готовьтесь к абордажу!
+problem-default-drugsmugglers-drugoutpost-raidsuccess: Хорошая работа, капитан. Эта станция теперь под полицейским контролем.
+problem-drum-drugsmugglers-drugoutpost-raidsuccess: BEGIN TRANSLATION --[ Капитан, хорошая работа. Станция теперь под полицейским контролем. ]-- END TRANSLATION
+
+problem-default-drugsmugglers-opt-getbuff: Станция, я готов получить награду.
+problem-default-drugsmugglers-givebuff: Капитан, благодаря твоей работе система снова свободна от Сока. Прими этот знак благодарности.
+problem-drum-drugsmugglers-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+#Generic 1 Step Problems
+problem-default-pirates-title: Проблемы с пиратами
+problem-default-pirates-step1-summary: Уничтожить пиратские суда
+problem-default-pirates-step1-desc:  |
+ [h1]Проблемы с пиратами[/h1]
+ Пираты Сиксайзер — обширная свободно организованная банда пиратов. У них нет никаких сомнений по поводу грабежа, мародёрства, кражи или «экспроприации». Они также промышляют рабами и наркотиками. Они везде, и стоит остановить одного, как кажется, что на его место сразу приходит другой. Сделай свой вклад и помоги остановить нескольких.
+
+problem-default-pirates-step1-complete: Отличная работа, капитан! Пиратские суда нейтрализованы, наш груз теперь в безопасности.
+problem-drum-pirates-step1-complete: BEGIN TRANSLATION --[ Капитан, хорошая работа. Уничтожение пиратских судов подтверждено и одобрено. ]-- END TRANSLATION
+
+problem-default-pirates-opt-getbuff: Станция, я готов получить награду.
+problem-default-pirates-givebuff: Мы рады, что пиратов больше нет. Прими это в благодарность.
+problem-drum-pirates-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+problem-default-dumpedcargo-title: Время поставки на исходе
+problem-default-dumpedcargo-step1-summary: Доставить грузовые капсулы на ближайшую станцию
+problem-default-dumpedcargo-step1-desc:  |
+ [h1]Время поставки на исходе[/h1]
+ Несколько местных грузовых кораблей вынуждены были сбросить груз после ЧП на борту. Этот груз нужно доставить, пока он не испортился. Подключайся и помоги доставить товары. Ищи [em]Сброшенный груз[/em] и доставляй грузовые капсулы на любую ближайшую [em]станцию[/em]. И ещё: эти капсулы довольно тяжёлые, и их нужно доставить ЦЕЛЫМИ, так что не забудь взять тяговый луч.
+
+problem-default-dumpedcargo-step1-opt-handin: У меня одна из грузовых капсул
+problem-default-dumpedcargo-handin-ack: Понял. Доставляй сюда.
+problem-drum-dumpedcargo-handin-ack: BEGIN TRANSLATION --[ Доставка груза в желаемое место ]-- END TRANSLATION
+problem-default-dumpedcargo-cargo-handin1: Грузовой контейнер принят.
+problem-drum-dumpedcargo-cargo-handin1: BEGIN TRANSLATION --[ Приём выполнен ]-- END TRANSLATION
+problem-default-dumpedcargo-step1-complete: Отличная работа, капитан! Твоя оперативность и эффективная транспортировка помогли избежать потери ценных товаров.
+problem-drum-dumpedcargo-step1-complete: BEGIN TRANSLATION --[ Капитан, хорошая работа. Долгожданная помощь доставлена вовремя. Потери избегнуты. ]-- END TRANSLATION
+
+problem-default-dumpedcargo-opt-getbuff: Станция, я готов получить награду.
+problem-default-dumpedcargo-givebuff: Спасибо за подбор и доставку всего сброшенного груза. Прими нашу благодарность.
+problem-drum-dumpedcargo-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+problem-default-oreshortage-title: Нехватка руды
+
+problem-default-oreshortage-tritanium-step1-summary: Доставить руду тританиум в пункт сбора руды
+problem-default-oreshortage-tritanium-step1-desc:  |
+ [h1]Нехватка руды[/h1]
+ Из-за внеплановых остановок работы, задержек поставок и поломок оборудования у нас не хватает руды. Руда — основа любой космической цивилизации, без неё нельзя строить корабли, станции и оборудование, нужное для перемещения по галактике. Помоги нам выйти на базовый уровень потребности — доставь немного {item-base:item.ore.tritanium} в [em]Пункт сбора руды[/em]. Добывай, покупай, кради — нам всё равно, главное — добудь.
+
+problem-default-oreshortage-magnesite-step1-summary: Доставить руду магнезит в пункт сбора руды
+problem-default-oreshortage-magnesite-step1-desc:  |
+ [h1]Нехватка руды[/h1]
+ Из-за внеплановых остановок работы, задержек поставок и поломок оборудования у нас не хватает руды. Руда — основа любой космической цивилизации, без неё нельзя строить корабли, станции и оборудование, нужное для перемещения по галактике. Помоги нам выйти на базовый уровень потребности — доставь немного {item-base:item.ore.magnesite} в [em]Пункт сбора руды[/em]. Добывай, покупай, кради — нам всё равно, главное — добудь.
+
+problem-default-oreshortage-bonivium-step1-summary: Доставить руду бониум в пункт сбора руды
+problem-default-oreshortage-bonivium-step1-desc:  |
+ [h1]Нехватка руды[/h1]
+ Из-за внеплановых остановок работы, задержек поставок и поломок оборудования у нас не хватает руды. Руда — основа любой космической цивилизации, без неё нельзя строить корабли, станции и оборудование, нужное для перемещения по галактике. Помоги нам выйти на базовый уровень потребности — доставь немного {item-base:item.ore.bonivium} в [em]Пункт сбора руды[/em]. Добывай, покупай, кради — нам всё равно, главное — добудь.
+
+problem-default-oreshortage-kelbium-step1-summary: Доставить руду келбиум в пункт сбора руды
+problem-default-oreshortage-kelbium-step1-desc:  |
+ [h1]Нехватка руды[/h1]
+ Из-за внеплановых остановок работы, задержек поставок и поломок оборудования у нас не хватает руды. Руда — основа любой космической цивилизации, без неё нельзя строить корабли, станции и оборудование, нужное для перемещения по галактике. Помоги нам выйти на базовый уровень потребности — доставь немного {item-base:item.ore.kelbium} в [em]Пункт сбора руды[/em]. Добывай, покупай, кради — нам всё равно, главное — добудь.
+
+problem-default-oreshortage-virmatite-step1-summary: Доставить руду вирматит в пункт сбора руды
+problem-default-oreshortage-virmatite-step1-desc:  |
+ [h1]Нехватка руды[/h1]
+ Из-за внеплановых остановок работы, задержек поставок и поломок оборудования у нас не хватает руды. Руда — основа любой космической цивилизации, без неё нельзя строить корабли, станции и оборудование, нужное для перемещения по галактике. Помоги нам выйти на базовый уровень потребности — доставь немного {item-base:item.ore.virmatite} в [em]Пункт сбора руды[/em]. Добывай, покупай, кради — нам всё равно, главное — добудь.
+
+
+problem-default-oreshortage-step1-opt-handin: Вот часть руды, которую вы запрашивали
+problem-default-oreshortage-step1-suc: Твоя помощь с поставкой руды очень кстати!
+problem-drum-oreshortage-step1-suc: BEGIN TRANSLATION --[ Капитан, хорошая работа. Доставленная руда принята. ]-- END TRANSLATION
+problem-default-oreshortage-step1-complete: Капитан, твоя помощь очень ценна. Благодаря твоим усилиям наши операции снова идут гладко.
+problem-drum-oreshortage-step1-complete: BEGIN TRANSLATION --[ Операции снова гладко. Спасибо, Капитан. ]-- END TRANSLATION
+
+problem-default-oreshortage-opt-getbuff: Станция, я готов получить награду.
+problem-default-oreshortage-givebuff: Нехватка руды позади, пока что. Спасибо, капитан. Прими это как знак нашей признательности.
+problem-drum-oreshortage-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+problem-default-lockedjumpgate-title: Прыжковые врата заблокированы
+problem-default-lockedjumpgate-step1-summary: Разблокировать системные прыжковые врата
+problem-default-lockedjumpgate-step1-desc:  |
+ [h1]Прыжковые врата заблокированы[/h1]
+ [h2]Разблокировать для перехода[/h2]
+ В этой системе заблокированы [url=codex://codex.intermediate.transit.travel]Прыжковые врата[/url]. Узнай, в каком регионе они находятся, и поработай над их разблокировкой. Это позволит путешествовать к связанной звёздной системе.
+
+problem-default-lockedjumpgate-step1-complete: Отличная работа, капитан! С восстановленными прыжковыми вратами торговля значительно улучшится.
+problem-drum-lockedjumpgate-step1-complete: BEGIN TRANSLATION --[ Прыжковые врата задействованы и восстановлены. Капитан! Отличная работа. ]-- END TRANSLATION
+
+problem-default-piratelife-title: Пиратская жизнь
+problem-default-piratelife-step1-summary: Уничтожить лолесские суда
+problem-default-piratelife-step1-desc:  |
+ [h1]Пиратская жизнь[/h1]
+ Быть пиратом непросто. На этот менее ограниченный образ жизни постоянно нападают те, кто видит в нас паразитов. Но это неправда. Мы создаём свои возможности из окружающей вселенной. И мы никогда, ну, почти никогда, не нападаем друг на друга. Несколько кораблей отказались признать наши права на эту систему и вместо этого пытаются грабить нас! Из всего на свете. Помоги нам избавиться от этих неприятностей, уничтожая как можно больше $facbase:fac.lawless$[em]Лолесских кораблей[/em].
+
+problem-default-piratelife-step1-complete: Мы это запомним, капитан. Твоя безжалостность в зачистке Лолесских кораблей напомнила им, кто на самом деле правит этими космотрассами.
+
+problem-default-piratelife-opt-getbuff: Станция, я готов получить награду.
+problem-default-piratelife-givebuff: Эй, капитан. У тебя настоящее пиратское сердце, и за это прими это в благодарность.
+problem-drum-piratelife-givebuff: BEGIN TRANSLATION --[ Да, Капитан. Благодарность принимается. ]-- END TRANSLATION
+
+problem-default-dopplegangers-title: "Местные нападения"
+problem-default-dopplegangers-step1-summary: "Расследовать стычки и собрать улики"
+problem-default-dopplegangers-step2-summary: "Развернуть субрассеивающие сканеры"
+problem-default-dopplegangers-step3-summary: "Исследовать места"
+problem-default-planetarymining-title: "Уничтожение планет ради прибыли"
+problem-default-planetarymining-step1-summary: "Добыть и доставить образцы"
+problem-default-planetarymining-step2-summary: "Устранить протестующих"
+problem-default-planetarymining-step3-summary: "Установить бомбы"
