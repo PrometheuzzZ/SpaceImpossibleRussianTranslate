@@ -46,47 +46,103 @@ tut-lockon: "LOCK ON"
 tut-hold: "[HOLD]"
 tut-click: "[CLICK]"
 
+tut-beacons: Beacons
+tut-building-comps: Ship Components
+tut-building-mounts: Ship Mounts
+tut-building-paints: Ship Painting
+tut-building-templates: Ship Templates
+tut-building-tiles: Ship Tiles
+tut-comp-assemblers: Assembler Components
+tut-comp-bridges: Bridge Components
+tut-comp-cargobays: Cargobay Components
+tut-comp-engines: Engine Components
+tut-comp-hangars: Hangar Components
+tut-comp-fabs: Fabricator Components
+tut-comp-reactors: Reactor Components
+tut-comp-shields: Shield Components
+tut-comp-weapons: Weapon Components
+tut-comp-labs: Fabricator Components
+tut-docking: Docking
+tut-encounterhostile: Dealing with Hostiles
+tut-enhancements: Ship Enhancements
+tut-enterbuild: Edit Your Ship
+tut-enteredeva: Going EVA
+tut-firstbuild: First Time Construction
+tut-firstcomponent-interact: Component Interaction
+tut-firstcomponent-inventory: Component Acquired
+tut-firstregiondiscovery: Region Discovery
+tut-firstscan: Scanning
+tut-firstwarpout: First Warp
+tut-hailing: Hailing Vessels
+tut-hoverasteroid: Asteroids
+tut-inventoryopen: Items and Inventory
+tut-itempickup: Item Pickup
+tut-manufactureopen: Manufacturing
+tut-pickupresource: Ore Pickup
+tut-sysconflict: System Conflicts
+tut-trading: Trading
+tut-sysproblems: System Problems
+#tut-transitcreation: Jumpgates - OUTDATED
+tut-transittravel: Jumpgates & Wormholes
+tut-warphint: There's More Out There
+tut-weapongroups: Weapon Groups
+tooltip-note-edit: Edit Note
+tooltip-note-delete: Delete Note
+notes-createnote: Create Note
+tooltip-note-ping: Toggle Note Map Ping
+tut-dismiss: Dismiss
+notes-title: NOTES
+notes-edittitle: Edit Note
+
 #Tutorial hint texts that popup once certain actions occur. Usually when clicked links to codex pages
-tut-inventoryopen: "Items can be moved around inventories with {key-interact} and thats just the start"
-tut-manufactureopen: "Using Manufacturing you can convert Ores into Sheets and then Components. {key-interact} to select a recipe and craft it"
-tut-firstwarpout: "Welcome to warp. Press {key-systemclickmove} or use {key-moveforward} {key-rotatecounterclockwise} {key-moveback} {key-rotateclockwise} to explore the universe"
-tut-warphint: "This region isn't everything. Press the [b]WARP[/b] button or {key-warp} to explore the universe"
-tut-pickupresource: "Ores can be [b]Manufactured[/b] with [b]Fabricators[b] into Sheets, then into Components and other useful items"
-tut-firstcomponent-inventory: "You got a Component! Components can be placed into the slots on your vessel with {key-interact}. Learn about Components"
-tut-firstcomponent-interact: "You swapped a Component! Components can be placed into the slots on your vessel with {key-interact}. Learn about Components"
-tut-firstscan: "Scanning reveals ores and other resources nearby"
-tut-enterbuild: "You have just entered range of an Assembler. Press [b]START BUILDING[/b] and select the Assembler to begin Construction"
-tut-firstbuild: "Welcome to Constuction here you can upgrade and change your vessel. Click to learn how to get started with Construction"
-tut-itempickup: "Items floating near you can be picked up with {key-pickupitems}"
-tut-enteredeva: "While in EVA you can do many things, enter other vessels with {key-enterexitvessel}, repair tiles and more!"
-tut-hoverasteroid: Mine asteroids to get resources which can be used for all manner of things
-tut-encounterhostile: You have been targetted!! Fire at enemies with {key-actionsecondary}. Scan for their vital components near the cursor with {key-actionprimary} 
-tut-firstregiondiscovery: "You have discovered a new region. Flying near regions will discover more about them"
-tut-missions: "It appears people seek help in this system and have posted Missions on the missions board {key-togglemissions}"
-tut-trading: "{key-interact} on an item in the Traders inventory(left) to buy or your inventory(right) to sell"
-tut-transitcreation: "Jumpgates are a quick way travel large distances. Place it by {key-actionsecondary} while at warp. Click to learn more & how to link them"
-tut-sysconflict: "You have just entered a system in Conflict. Complete [b]battles[/b] or help those in [b]distress[/b] to shift the balance. Click to learn more"
-tut-beacons: "Beacons can be used to mark important locations. Place it by {key-actionsecondary} with it held over space"
-tut-comp-assemblers: "Assemblers are used to update or construct new vessels. Learn about Assemblers"
-tut-comp-bridges: "Bridges can enhance other components or add new abilities. Learn about Bridges"
-tut-comp-cargobays: "Cargo bays are used to store items. Learn about Cargo bays"
-tut-comp-engines: "Engines make a ship move and allow it to warp. Learn about Engines"
-tut-comp-hangars: "Hangars can be used to stow other vessels inside and bring them along for the ride. Learn about Hangars"
-tut-comp-labs: "Fabricators allow manufacturing of resources into useful items. Learn about Fabricators"
-tut-comp-reactors: "Reactors provide power to all other components. Learn about Reactors"
-tut-comp-shields: "Shields protect an area against most weaponry. Learn about Shields"
-tut-comp-weapons: "Weapons can blast away your foes or dig up valuable resources. Learn about Weapons"
-tut-building-mounts: "Learn all about editing mounts"
-tut-building-comps: "Learn all about editing components"
-tut-building-tiles: "Learn all about editing tiles"
-tut-building-paints: "Learn all about painting tiles"
-tut-building-templates: "Save/Load your own vessel designs or perhaps share and load those of other players"
-tut-enhancements: "Your vessel now has an Enhancement. Enhancements can boost other components or give all new abilities"
-tut-weapongroups: "Weapons becoming unwieldly, dont want to fire everything at once? Learn about weapon groups"
-tut-hailing: "Someone wants to talk to you. View incoming hails with {key-viewhail} or even hail others with {key-hail}"
-tut-docking: "You have entered range of a Hangar. Learn how to dock vessels into other vessels"
-tut-transittravel: "This is a Jumpgate/Wormhole Region. Fly towards the portal shown on the scanner and enter it to travel vast distances"
-tut-sysproblems: "Some star systems have a [b]Problem[/b] that needs to be solved with your help. Learn about Problems"
+tut-inventoryopen-tip: "Items can be moved around your vessel inventory with {key-interact} and thats just the start..."
+tut-manufactureopen-tip: "Using Manufacturing you can convert Ores into Sheets and then Components. {key-interact} to select a recipe and craft it"
+tut-firstwarpout-tip: "Welcome to warp. Press {key-systemclickmove} or use {key-moveforward} {key-rotatecounterclockwise} {key-moveback} {key-rotateclockwise} to explore the universe"
+tut-warphint-tip: "This region isn't everything. Press the [b]WARP[/b] button or {key-warp} to explore the universe"
+tut-pickupresource-tip: "Ores can be [b]Manufactured[/b] with [b]Fabricators[/b] into Sheets, then into items and Components"
+tut-firstcomponent-inventory-tip: "You got a Component! Components "do stuff" for a vessel. Components can be placed into the mounts on your vessel with {key-interact}."
+tut-firstcomponent-interact-tip: "You swapped a Component! Components can be placed into the slots on your vessel with {key-interact}. Learn about Components"
+tut-firstscan-tip: "Scanning reveals ores and other resources nearby"
+tut-enterbuild-tip: "You are in range of an Assembler. Press [b]START BUILDING[/b] and select the Assembler to begin Construction"
+tut-firstbuild-tip: "Welcome to Constuction here you can upgrade and change your vessel. Click to learn how to get started with Construction"
+tut-itempickup-tip: "Items floating near you can be picked up with {key-pickupitems}"
+tut-enteredeva-tip: "While in EVA you can do many things, enter other vessels with {key-enterexitvessel}, repair tiles and more!"
+tut-hoverasteroid-tip: Shoot asteroids to get resources which can be used for all sorts of things
+tut-encounterhostile-tip: You have been targetted!! Fire at enemies with {key-actionsecondary}. Scan for their vital components near the cursor with {key-actionprimary} 
+tut-firstregiondiscovery-tip: "You have discovered a new region. Flying near regions will discover more about them"
+tut-missions-tip: "It appears people seek help in this system and have posted Missions on the missions board {key-togglemissions}"
+tut-trading-tip: "{key-interact} on an item in the Traders inventory(left) to buy or your inventory(right) to sell"
+#tut-transitcreation-tip: "Jumpgates are a quick way travel large distances. Place it by {key-actionsecondary} while at warp. Click to learn more & how to link them"
+tut-sysconflict-tip: "You have just entered a system in Conflict. Complete [b]battles[/b] or help those in [b]distress[/b] to shift the balance. Click to learn more"
+tut-beacons-tip: "Beacons can be used to mark important locations. Place it by {key-actionsecondary} with it held over space"
+tut-comp-assemblers-tip: "Assemblers are used to update or construct new vessels. Learn about Assemblers"
+tut-comp-bridges-tip: "Bridges can enhance other components or add new abilities. Learn about Bridges"
+tut-comp-cargobays-tip: "Cargo bays are used to store items. Learn about Cargo bays"
+tut-comp-engines-tip: "Engines make a ship move and allow it to warp. Learn about Engines"
+tut-comp-hangars-tip: "Hangars can be used to stow other vessels inside and bring them along for the ride. Learn about Hangars"
+tut-comp-labs-tip: "Fabricators allow manufacturing of resources into useful items. Learn about Fabricators"
+tut-comp-reactors-tip: "Reactors provide power to all other components. Learn about Reactors"
+tut-comp-shields-tip: "Shields protect an area against most weaponry. Learn about Shields"
+tut-comp-weapons-tip: "Weapons can blast away your foes or dig up valuable resources. Learn about Weapons"
+tut-building-mounts-tip: "Learn all about editing mounts"
+tut-building-comps-tip: "Learn all about editing components"
+tut-building-tiles-tip: "Time to expand! Place tiles with {key-actionprimary}. Remove tiles with {key-actionsecondary}."
+tut-building-paints-tip: "Spruce things up! Paint your vessel with {key-actionprimary}. Remove paint with {key-actionsecondary}."
+tut-building-templates-tip: "Save/Load your own vessel designs or perhaps share and load those of other players"
+tut-enhancements-tip: "Your vessel now has an Enhancement. Enhancements can boost other components or give all new abilities"
+tut-weapongroups-tip: "Weapons becoming unwieldly, dont want to fire everything at once? Learn about weapon groups"
+tut-hailing-tip: "Someone wants to talk to you. View incoming hails with {key-viewhail} or even hail others with {key-hail}"
+tut-docking-tip: "You have entered range of a Hangar. Learn how to dock vessels into other vessels"
+tut-transittravel-tip: "This is a Jumpgate or Wormhole Region. Fly towards the portal shown on the scanner and enter it to travel vast distances"
+tut-sysproblems-tip: "Some star systems have a [b]Problem[/b] that needs to be solved with your help. Learn about Problems"
+tut-tractors: Tractors
+tut-tractors-tip: Use a tractor beam to move vessels or even asteroids. Learn more.
+tut-accessopen: Access
+tut-accessopen-tip: Manage who can open inventory, modify components and more with Access. Learn about Access.
+tut-factions: Factions
+tut-factions-tip: Help, or hinder, the different groups throughout the universe. Learn about Factions.
+tut-teams: Teams
+tut-teams-tip: Work together with other players on a team. Learn about Teams.
 
 time-since-sec: "{0} sec ago"
 time-since-min: "{0} min ago"
@@ -111,16 +167,17 @@ time-day-pl: "{0} days"
 version-gamename: "SPACE IMPOSSIBLE"
 
 menu-ea-text: >
- Welcome Captain
- \n
- Space Impossible is currently in the [b][38FAA6]BETA[-][/b] stage of development. This means that while many of the fundamental features are in, content, balance, and smaller features are 
- still in continuously development. There is now a very basic tutorial. You may encounter bugs, crashes and although we make all effort to prevent it saves may be lost at any time. If you do 
- have a problem or think you have found a bug we would be extremely grateful if you let us know.\n\nWe hope you as an early adopter know and except these risks but also know how much you and 
- your feedback help shape the game into its final form.\n\nEnjoy your journey Captain!
+ Welcome Captain\n
+ Space Impossible has left beta, and is currently in [b][38FAA6]Early Access[-][/b], with an intended full release in the near future. This means that most of the game is present, however, some content, balancing and other elements are still being added, changed or removed. You may encounter bugs or crashes, and although we make every effort to prevent it, game progress may be lost. If you do encounter a bug, we would be extremely grateful if you report it to us on the Steam forums or Discord.
+ \n\n
+ We hope you as an early adopter and early access player know and accept these risks, but also know how much you and your feedback has helped, and continue to help, shape and improve the game.
+ \n\n
+ Enjoy your journey Captain!
 
 menu-ea-btn: "CONTINUE"
 menu-play: "PLAY"
 menu-options: "OPTIONS"
+menu-quittomenu: "QUIT TO MENU"
 menu-quit: "QUIT"
 menu-resume: "RESUME"
 menu-viewtut: "VIEW TUTORIAL"
@@ -195,13 +252,28 @@ options-viddynamiccamera: "Enable Dynamic Camera"
 options-viduiscale: "UI Scale"
 
 options-viduiadjusttodpi: "Adjust UI To Display DPI"
+options-vidorientcamera: "Rotation Camera Lock"
 
 
-options-keybinds: "Key Controls"
-options-usemousecontrol: "Mouse Control (Region)"
+options-keybinds: "EDIT CONTROL BINDINGS"
+options-keybinds-kbmouse: "KEYBOARD & MOUSE"
+options-keybinds-controller: "CONTROLLER"
+options-usemousecontrol: "Click to Move (Region)"
 options-shortpresstoinspect: "Click to Inspect"
 options-zoomspeedmultiplier: "Zoom Speed"
 options-controllersensitivity: "Controller Cursor Sensitivity"
+options-controllerdirectionalturning: "Controller Directional Turning"
+options-controllervibration: "Controller Vibration"
+options-keyboardmousecontrolstyle: "Keyboard/Mouse Movement Input Style"
+options-controllercontrolstyle: "Game Controller Movement Input Style"
+options-keyboardmousecontrolstyle-default: "Default"
+options-keyboardmousecontrolstyle-clicktomove: "Click-To-Move"
+options-keyboardmousecontrolstyle-relativefacing: "Relative Facing"
+options-controllercontrolstyle-default: "Default"
+options-controllercontrolstyle-clicktomove: "Click-To-Move"
+options-controllercontrolstyle-relativefacing: "Relative Facing"
+tooltip-options-keyboardmousecontrolstyle: "Choose Keyboard/Mouse Input Style For Vessel Movement"
+tooltip-options-controllercontrolstyle: "Choose Controller Input Style of Vessel Movement"
 
 options-keycategory-default:  General
 options-keycategory-inregion: Region
@@ -217,6 +289,7 @@ options-key-moveleft: "Thrust Left"
 options-key-moveright: "Thrust Right"
 options-key-rotateclockwise: "Rotate Right"
 options-key-rotatecounterclockwise: "Rotate Left"
+options-key-clickmove: "Move To"
 options-key-suitmoveup: "Thrust EVA Suit Up"
 options-key-suitmovedown: "Thrust EVA Suit Down"
 options-key-suitmoveleft: "Thrust EVA Suit Left"
@@ -240,6 +313,7 @@ options-key-togglemanufacturing: "Toggle Manufacturing"
 options-key-togglemissions: "Toggle Mission Board"
 options-key-togglefactions: "Toggle Faction Window"
 options-key-togglebeacons: "Toggle Beacon List Window"
+options-key-togglenotes: "Toggle Notes Window"
 options-key-togglestats: "Toggle Statistics Window"
 options-key-togglecodex: "Toggle Help Window"
 options-key-togglechatinput: "Toggle Chat"
@@ -331,7 +405,12 @@ options-startinggamemode-creative: "Creative"
 
 options-startinggamemode: "Game Mode"
 
-options-keybinds: "Key Controls"
+options-enemydifficulty-easy: "Reduced"
+options-enemydifficulty-normal: "Default"
+options-enemydifficulty-hard: "Equal"
+options-enemydifficulty-killmenow: "Increased"
+
+options-enemydifficulty: "AI Damage Scaling"
 
 options-discardchanges-title: "Discard Changes?"
 options-discardchanges-msg: "Closing will discard all recent changes you have made to options. Do you wish to continue?"
@@ -344,6 +423,7 @@ tooltip-options-key-moveleft: "Strafe vessel left"
 tooltip-options-key-moveright: "Strafe vessel right"
 tooltip-options-key-rotateclockwise: "Rotate vessel clockwise"
 tooltip-options-key-rotatecounterclockwise: "Rotate vessel counter-clockwise"
+tooltip-options-key-clickmove: "Move to hovered location. Hold down to set rotation. (Requires enabling Click To Move)"
 tooltip-options-key-suitmoveup: "Move EVA Suit Up"
 tooltip-options-key-suitmovedown: "Move EVA Suit Down"
 tooltip-options-key-suitmoveleft: "Move EVA Suit Left"
@@ -367,6 +447,7 @@ tooltip-options-key-togglemanufacturing: "Opens and closes manufacturing tab"
 tooltip-options-key-togglemissions: "Opens and closes star system mission board"
 tooltip-options-key-togglefactions: "Opens Faction Information window"
 tooltip-options-key-togglebeacons: "Opens Beacon Information window"
+tooltip-options-key-togglenotes: "Opens Notes window"
 tooltip-options-key-togglestats: "Opens Statistics List window"
 tooltip-options-key-togglecodex: "Opens Help Codex window"
 tooltip-options-key-togglechatinput: "Begins and ends text input to chat box"
@@ -619,17 +700,17 @@ map-pinghint: "[b]HINT[/b]: Right-Click map to add a ping point"
 inv-takecontrol: "TAKE CONTROL"
 inv-sethome: "SET AS HOME"
 
-controlhint-inv-cargo-mine: "{key-switchpanelprev} My Paper Doll  {key-switchpanelnext} Actions  {key-interact} Interact  {key-split} Split Stack  {key-transfer} Transfer Stack  {key-transfer}[HOLD] Transfer All  {key-close} Close"
-controlhint-inv-cargosel-mine: "{key-switchpanelprev} My Paper Doll  {key-switchpanelnext} Actions  {key-interact} Interact  {key-close} Close"
-controlhint-astralui-mine: "{key-switchpanelprev} Other Paper Doll  {key-switchpanelnext} Inventory  {key-interact} Add/Remove Component  {key-transfer} Transfer Component  {key-close} Close"
+controlhint-inv-cargo-mine: "{key-switchpanelprev} My Vessel Overlay  {key-switchpanelnext} Actions  {key-interact} Interact  {key-split} Split Stack  {key-transfer} Transfer Stack  {key-transfer}[HOLD] Transfer All  {key-close} Close"
+controlhint-inv-cargosel-mine: "{key-switchpanelprev} My Vessel Overlay  {key-switchpanelnext} Actions  {key-interact} Interact  {key-close} Close"
+controlhint-astralui-mine: "{key-switchpanelprev} Other Vessel Overlay  {key-switchpanelnext} Inventory  {key-interact} Add/Remove Component  {key-transfer} Transfer Component  {key-close} Close"
 controlhint-inv-actions-mine: "{key-switchpanelprev} Inventory  {key-interact} Interact  {key-close} Close"
-controlhint-inv-generic-mine: "{key-switchpanelprev} My Paper Doll  {key-switchpanelnext} Inventory  {key-interact} Interact  {key-close} Close"
+controlhint-inv-generic-mine: "{key-switchpanelprev} My Vessel Overlay  {key-switchpanelnext} Inventory  {key-interact} Interact  {key-close} Close"
 
-controlhint-inv-cargo-other: "{key-switchpanelnext} Other Paper Doll  {key-switchpanelprev} Actions  {key-interact} Interact  {key-split} Split Stack  {key-transfer} Transfer Stack  {key-transfer}[HOLD] Transfer All  {key-close} Close"
-controlhint-inv-cargosel-other: "{key-switchpanelprev} Other Paper Doll  {key-switchpanelnext} Actions  {key-interact} Interact  {key-close} Close"
-controlhint-astralui-other: "{key-switchpanelnext} My Paper Doll  {key-switchpanelprev} Inventory  {key-interact} Add/Remove Component  {key-transfer} Transfer Component  {key-close} Close"
+controlhint-inv-cargo-other: "{key-switchpanelnext} Other Vessel Overlay  {key-switchpanelprev} Actions  {key-interact} Interact  {key-split} Split Stack  {key-transfer} Transfer Stack  {key-transfer}[HOLD] Transfer All  {key-close} Close"
+controlhint-inv-cargosel-other: "{key-switchpanelnext} Other Vessel Overlay  {key-switchpanelprev} Actions  {key-interact} Interact  {key-close} Close"
+controlhint-astralui-other: "{key-switchpanelnext} My Vessel Overlay  {key-switchpanelprev} Inventory  {key-interact} Add/Remove Component  {key-transfer} Transfer Component  {key-close} Close"
 controlhint-inv-actions-other: "{key-switchpanelnext} Inventory  {key-interact} Interact  {key-close} Close"
-controlhint-inv-generic-other: "{key-switchpanelnext} Other Paper Doll  {key-interact} Interact  {key-close} Close"
+controlhint-inv-generic-other: "{key-switchpanelnext} Other Vessel Overlay  {key-interact} Interact  {key-close} Close"
 
 controlhint-build-inv: "{key-switchpanelprev} Build Grid  {key-interact} Pick  {key-close} End Building"
 controlhint-build-grid: "{key-switchpanelprev} Tools  {key-switchpanelnext} Tile/Paint/Comps  {key-close} End Building"
@@ -746,6 +827,8 @@ regiontype-asteroid: "Asteroid"
 regiontype-leviathan: "Leviathan"
 regiontype-riftspace: "Rift Space"
 regiontype-boss: "Anchored Fleet"
+regiontype-brokenplanet: "Destroyed Planet"
+regiontype-swarmfleet: "Seti Swarm Fleet"
 
 enhancements-title: "Enhancements"
 enhancements-noneactive: "NO ENHANCEMENTS EQUIPPED\n\nAdd Bridges with enhancements to this vessel."
@@ -822,6 +905,7 @@ sysproblem-title: SYSTEM ENCOUNTERING PROBLEM
 starsystem-problembegun: NEW SYSTEM PROBLEM
 starsystem-problemsolved: SYSTEM PROBLEM SOLVED
 starsystem-intransit: In Transition
+sysproblem-viewdetails: VIEW DETAILS {key-togglesysteminfo}
 
 dialogue-received: "You [00FF44]Received[-]  [b][6ebfff]{0} x {1}[-][/b]"
 dialogue-lost: "You [FF0044]Lost[-] [b][6ebfff]{0} x {1}[-][/b]"
@@ -938,6 +1022,7 @@ itemtype-weap-enhaura: "ENHANCEMENT AURA"
 
 itemtype-shield: "ENERGY SHIELD"
 itemtype-shield-missiledef: "PROJECTILE DEFENSE"
+itemtype-shield-phys: "COMBAT + ENERGY SHIELD"
 
 itemtype-engine: "ENGINE"
 itemtype-thruster: "THRUSTER"
@@ -1411,6 +1496,8 @@ stat-item-comp: "Components"
 stat-item-tile: "Tiles"
 stat-item-jumpgate: "Jumpgates"
 stat-item-beacon: "Beacons"
+stat-item-tractor: "Tractor"
+stat-item-trade: "Trade Goods"
 
 stat-item-comp-assembl: "Assemblers"
 stat-item-comp-bridge: "Bridges"
@@ -1461,6 +1548,7 @@ notify-accessdenied-assembl: "ASSEMBLER ACCESS DENIED"
 notify-hackfail-distance: "HACK FAILED\n TOO FAR FROM TARGET"
 notify-hackfail-invalidtarget: "HACK FAILED\n TARGET INVALID"
 
+notify-manufstatus-openmanufacturing: ""
 notify-manufstatus-none: ""
 notify-manufstatus-running: ""
 notify-manufstatus-done: ""
@@ -1518,6 +1606,7 @@ tooltip-options-viddoscreenshake: "Enables/disables shaking of screen from explo
 tooltip-options-viddynamiccamera: "Enables/disables dynamic camera movement based on movement and aiming."
 tooltip-options-viduiscale: "Change the relative size of the UI. [ff0000]CAUTION:[-] Some combinations of sizes and resolutions may cause un-usable UI."
 tooltip-options-viduiadjusttodpi: "Maintain apparent UI size on hi-dpi displays."
+tooltip-options-vidorientcamera: "Lock the game camera to current vessel rotation."
 tooltip-options-sndeffectslevel: "Effects volume"
 tooltip-options-sndmusiclevel: "Music Volume"
 tooltip-options-sndmasterlevel: "Master Volume"
@@ -1525,14 +1614,17 @@ tooltip-options-snduilevel: "UI volume"
 tooltip-options-playername: "The name others see you as. Midgame changes won't apply until next session."
 tooltip-options-disablegametips: "Disable hint & tutorial popups"
 tooltip-options-gamelanguage: "Language of text"
-tooltip-options-usemousecontrol: "Toggle Mouse Control in Region Space"
+tooltip-options-usemousecontrol: "Toggle to enable Click to Move in Region Space"
 tooltip-options-shortpresstoinspect: "Toggle long vs short press to inspect vs scan"
 tooltip-options-zoomspeedmultiplier: "Change speed at which cameras zoom"
+tooltip-options-controllervibration: "Change amount of vibration when using a controller"
 tooltip-options-controllersensitivity: "Change the sensitivity of the aiming cursor when using a controller"
+tooltip-options-controllerdirectionalturning: "Toggle to make vessels rotate to face the direction of the controller stick"
 tooltip-options-startinggamemode: "Pick the game mode, can be changed at any time with the /sv_gamemode command"
 tooltip-options-showdamagetext: "Show floating damage numbers"
 tooltip-options-showfactionemotes: "Show floating faction reactions"
 tooltip-options-keybinds: "Change control bindings"
+tooltip-options-enemydifficulty: "Change AI damage scaling"
 
 tooltip-game-edithotbar: "Toggle Edit Weapon Groups Mode"
 tooltip-game-inventory: "INVENTORY"
@@ -1549,6 +1641,7 @@ tooltip-game-beacons: "BEACON LIBRARY"
 tooltip-game-teams: "TEAMS"
 tooltip-game-stats: "STATISTICS"
 tooltip-game-codex: "CODEX"
+tooltip-game-notes: "NOTES"
 tooltip-game-menu: "MENU"
 tooltip-game-pickupitems: "PICKUP NEARBY ITEMS"
 tooltip-game-hailnotifications: "{0} Pending hail messages. View with {1}"
@@ -1588,9 +1681,10 @@ tooltip-trgtpnldock: "Maximize Targetting Window"
 tooltip-conflictdefprogress: "Defense Progress"
 tooltip-conflictatkprogress: "Attack Progress"
 
+tooltip-beacon: "BEACON"
 tooltip-beacon-toggletrack: "TOGGLE NAVIGATION ARROW"
 tooltip-beacon-toggletrackall: "TOGGLE NAVIGATION ARROWS FOR ALL"
-tooltip-beacon-edit: "EDIT BEACON"
+tooltip-beacon-edit: "PRESS {0} TO EDIT OR REMOVE BEACON"
 tooltip-beacon-delete: "REMOVE BEACON"
 tooltip-beacon-togglebookmark: "ADD/REMOVE FROM LIBRARY"
 tooltip-beacon-cantedit-notnearby: "CANNOT EDIT BEACON - YOU ARE TOO FAR AWAY FROM BEACON"
@@ -1608,8 +1702,7 @@ tooltip-faction-minaccess-constructionaccess: "CAN MODIFY VESSELS"
 tooltip-faction-minaccess-assembleraccess: "CAN ACCESS ASSEMBLERS"
 tooltip-faction-minaccess-dockingaccess: "CAN ACCESS DOCKING"
 tooltip-faction-minaccess-controlaccess: "CAN CONTROL VESSELS"
-tooltip-faction-buypricemod: "TRADE PRICES (BUYING)"
-tooltip-faction-sellpricemod: "TRADE PRICES (SELLING)"
+tooltip-faction-trademod: "TRADE BIAS"
 tooltip-faction-manufacturing: "FABRICATOR USAGE"
 tooltip-faction-assembling: "ASSEMBLER USAGE"
 tooltip-faction-free: "FREE"
@@ -1669,6 +1762,7 @@ tooltip-item-detail-salvospread: "SPREAD"
 tooltip-item-detail-salvotime: "TIME BETWEEN"
 tooltip-item-detail-warpspoolup: "WARP SPOOL UP"
 tooltip-item-detail-warpspooldown: "WARP SPOOL DOWN"
+tooltip-item-detail-proj-statedesc-hittrigger: "Emits matter lost to the blackhole, often altered. May be dangerous to touch."
 
 
 tooltip-item-detail-usesprojectile: "FIRES PROJECTILE:"
@@ -1721,6 +1815,7 @@ tooltip-item-detail-shieldradius: "RADIUS"
 tooltip-item-detail-shieldenergy: "MAX STRENGTH"
 tooltip-item-detail-shieldrecharge: "RECHARGE RATE"
 tooltip-item-detail-shieldcooldown: "COOLDOWN"
+tooltip-item-detail-shieldphysinfo: "[eeee33]ABSORBS 20% COMBAT DAMAGE[-]"
 tooltip-item-detail-floorplan: "FLOOR PLAN"
 tooltip-item-detail-canautodock: "CAN AUTO DOCK"
 tooltip-item-detail-contentmass: "CONTENTS MASS"
@@ -1760,6 +1855,7 @@ tooltip-item-detail-proj-statedesc-burst: "Bursts into many other projectiles"
 tooltip-item-detail-proj-statedesc-dotcharge: "Spawns a damaging area after a charge-up time"
 tooltip-item-detail-proj-statedesc-handin: "Hand-in area"
 tooltip-item-detail-proj-statedesc-breacher: "Breaches attached vessel dealing damage to internal components"
+tooltip-item-detail-proj-statedesc-bouncer: "Projectile that will bounce off surfaces at glancing angles otherwise will attach itself"
 
 tooltip-item-detail-proj-radius: "SIZE"
 tooltip-item-detail-proj-handintime: "HAND-IN TIME"
@@ -1815,6 +1911,7 @@ tooltip-item-detail-proj-hascollision: .noshow
 tooltip-item-detail-proj-strength: .noshow
 tooltip-item-detail-proj-spawnspeed: .noshow
 tooltip-item-detail-proj-damagedelay: .noshow
+tooltip-item-detail-proj-angleofrefl: .noshow
 
 tooltip-enh-effects: "EFFECTS"
 
@@ -1822,8 +1919,7 @@ tooltip-enh-all-mass: "COMPONENT MASS"
 tooltip-enh-all-reqenergy: "COMPONENT POWER REQUIRED"
 tooltip-enh-all-sig: "COMPONENT SCAN SIG."
 
-tooltip-enh-pricemods-buy: "BUY PRICE"
-tooltip-enh-pricemods-sell: "SELL PRICE" 
+tooltip-enh-trademod: "TRADE BIAS"
 
 tooltip-enh-weap-mass: "WEAPON MASS"
 tooltip-enh-weap-reqenergy: "WEAPON POWER REQUIRED"
@@ -1904,7 +2000,7 @@ tooltip-enh-cloak: "CLOAKING DEVICE"
 tooltip-enh-cloak-info: "ADDS CLOAKING DEVICE WHICH ALLOWS YOU TO EVADE DETECTION"
 tooltip-enh-scanrange: "SYSTEM SCAN RANGE"
 tooltip-enh-itempickuprange: "ITEM PICKUP RANGE"
-tooltip-enh-modifypricemods: "TRADE PRICE MODS"
+tooltip-enh-modifypricemods: "TRADE BIAS"
 tooltip-enh-transporter: "TRANSPORTERS"
 tooltip-enh-transporter-info: "WHEN EQUIPPED SUIT WILL EXIT VESSEL AT CURSOR POS AND ALLOW ENTERING FROM ANY DISTANCE"
 tooltip-enh-comprecovery: "COMPONENT RECOVERY CHANCE"
@@ -1914,6 +2010,18 @@ tooltip-enh-ejector-info: "WHEN EQUIPPED EJECTS TO EVA WHEN LAST BRIDGE IS DESTR
 tooltip-enh-attract: "ATTRACTION EFFECT"
 tooltip-enh-attract-force: "FORCE"
 tooltip-enh-attract-dist: "DISTANCE"
+tooltip-enh-aicontrol: "DEFENSE CONTROLLER"
+tooltip-enh-aicontrol-info: "ADDS LIMITED AUTO CONTROL WHEN CAPTAIN ABSENT"
+
+tooltip-enh-transient: "TRANSIENT"
+tooltip-enh-transient-info: "UNSTABLE, WILL EVAPORATE WHEN CUT AND CANNOT ENTER ASSEMBLY"
+
+tooltip-enh-dropchance-tile: "TILE DROP CHANCE"
+tooltip-enh-dropchance-comp: "COMPONENT DROP CHANCE"
+
+tooltip-enh-overtileloot: "MODIFIED LOOT"
+tooltip-enh-overtileloot-info: "TILES WILL NOT DROP WHAT YOU EXPECT"
+
 
 tooltip-showenhancements: "VIEW ACTIVE ENHANCEMENTS"
 
@@ -1940,6 +2048,7 @@ tooltip-mass: "[cceeff]⌂[-]VESSEL MASS"
 tooltip-mass-detail-tiles: "Tile Mass"
 tooltip-mass-detail-comps: "Component Mass"
 tooltip-mass-detail-items: "Items in Cargo"
+tooltip-mass-detail-extra: "Items on Cursor"
 
 tooltip-obj-inspect: "HOLD {0} or PRESS {1} TO INSPECT"
 
@@ -2018,10 +2127,12 @@ tooltip-nav-distance: "DIST."
 tooltip-nav-notinsystem: "{0} STAR SYSTEMS AWAY"
 tooltip-nav-notinregion: "UNKNOWN. NOT IN REGION"
 
+tooltip-camlock: "TOGGLE CAMERA LOCK"
 tooltip-showbuilding: "START BUILDING ON THIS OBJECT"
 tooltip-building-mirrortoggle: "TOGGLE MIRRORING MODE"
 tooltip-building-comtoggle: "TOGGLE CENTER OF MASS DISPLAY"
 tooltip-building-cottoggle: "TOGGLE CENTER OF THRUST DISPLAY"
+tooltip-building-comptoggle: "TOGGLE COMPONENT DISPLAY"
 tooltip-building-showpainttoggle: "TOGGLE DISPLAY OF PAINT ON VESSEL"
 tooltip-building-gridtoggle: "TOGGLE GRID"
 tooltip-building-energytoggle: "TOGGLE POWER DISPLAY MODE"
@@ -2059,6 +2170,8 @@ tooltip-teams-hidemine: "Minimize Details"
 tooltip-teams-viewmine: "View Details"
 tooltip-teams-revoke: "Revoke Team Faction Pledge"
 tooltip-teams-kick: "Kick from Team"
+tooltip-teams-editname: "Edit Team Name"
+tooltip-teams-editpass: "Edit Team Password"
 
 tooltip-assembler-empty: "EMPTY ASSEMBLER MOUNT"
 tooltip-hangar-empty: "EMPTY HANGAR MOUNT"
@@ -2117,6 +2230,7 @@ game-comprecovery: "RECOVERING COMPONENT...\n[AFCEF6]Success Chance: {0:0%}[-]"
 game-suithack: "HACKING VESSEL...\n[AFCEF6]Time Left: {0:0.0s}[-]"
 
 game-quitting: "[b]SAVING UNIVERSE[/b] \n [eeeeee]PLEASE DO NOT CLOSE GAME[-]"
+game-disconnecting: "[b]DISCONNECTING[/b] \n [eeeeee]PLEASE DO NOT CLOSE GAME[-]"
 
 boss-arrived-msg: "New Signal Detected"
 boss-arrived-sub: "New Alert"
@@ -2141,6 +2255,8 @@ fac-desc-ticeroymutineers: "A band of mutineers, rejecting their oaths to serve 
 fac-desc-forgottenrelics: "Mysterious and ancient relics from a long lost civilization."
 fac-desc-musiciancollective: "Some of the galaxy's top musicians belong to a long standing musicians collective for shared interests."
 fac-desc-arkwright: "One of the universe's richest traders; Arkwright travels around in a heavily customized ship, always ready to make a sale."
+fac-desc-seti: "An intelligent insectoid race, the Seti Rimanoo fleets are known to roam the galaxy, disrupting the more civilized wherever they arrive."
+fac-desc-brotherhood: "A quiet, secluded, apolitical collective of monks, The Brotherhood of Seekers look throughout the galaxy for The Truth, in whatever form that may manifest. Not shy of scientific methods, they utilize a number of approaches in their search."
 ############################
 #TRADING
 ############################
@@ -2153,10 +2269,10 @@ tooltip-buyfor: "BUY FOR"
 tooltip-sellfor: "SELL FOR"
 
 trading-sliderbox-title: "SELECT QUANTITY"
-trading-sliderbox-msg-buy: "Select how much [b][{1}]{0}[-][/b] you would like to buy?"
-trading-sliderbox-msg-sell: "Select how much [b][{1}]{0}[-][/b] you would like to sell?"
-trading-sliderbox-breakdown: "The Value for {0} at Ⱡ{1}({2})"
-trading-sliderbox-total: "Total: Ⱡ{0}"
+trading-sliderbox-msg-buy: "Select how much {0} you would like to buy?"
+trading-sliderbox-msg-sell: "Select how much {0} you would like to sell?"
+trading-sliderbox-breakdown: "The Value for {0} at Ⱡ{1:n0}({2})"
+trading-sliderbox-total: "Total: Ⱡ{0:n0}"
 tooltip-slider: "Drag to change"
 
 trading-sendtoplayer-title: "HOW MUCH WOULD YOU LIKE TO SEND?"
@@ -2280,19 +2396,16 @@ dialogue-trader-drum-military-ship-prefs: "BEGIN TRANSLATION --[ Preference acqu
 dialogue-trader-drum-mining-ship-prefs: "BEGIN TRANSLATION --[ Preference acquire alcohol. ]-- END TRANSLATION"
 dialogue-trader-drum-starter-prefs: "BEGIN TRANSLATION --[ Acquire things, any type. ]-- END TRANSLATION"
 
+trader-trademod: "Trade Bias"
+
 #Trader labels
-trader-default-: "MERCHANT"
-trader-indtrader-starter: "SIMPLE TRADER"
+trader-default-: "Merchant"
+trader-indtrader-starter: "Simple Trader"
 trader-default-arkwright:  "Rich Merchant Trader"
 
-trader-default-agricultural-ship: "Agriculturalist Trading Ship"
-trader-default-colony-ship: "Colony Supplier Ship"
-trader-default-construction-ship: "Construction Trading Ship"
-trader-default-entertainment-ship: "Entertainment Trading Ship"
 trader-default-generic-ship: "General Trading Ship"
-trader-default-industrial-ship: "Industrial Trading Ship"
-trader-default-military-ship: "Military Trading Ship"
-trader-default-mining-ship: "Mining Trading Ship"
+trader-default-generic-ship-poor: "Rundown Trading Ship"
+trader-default-generic-ship-rich: "Affluent Trading Ship"
 trader-default-conflictrecovery-ship: "Resupply Ship"
 
 trader-drum-agricultural: "Druminence Agriculturalist Station"
@@ -2304,14 +2417,9 @@ trader-drum-industrial: "Druminence Industrial Station"
 trader-drum-military: "Druminence Military Station"
 trader-drum-mining: "Druminence Mining Station"
 
-trader-drum-agricultural-ship: "Druminence Agriculturalist Trading Ship"
-trader-drum-colony-ship: "Druminence Colony Supplier Ship"
-trader-drum-construction-ship: "Druminence Construction Trading Ship"
-trader-drum-entertainment-ship: "Druminence Entertainment Trading Ship"
 trader-drum-generic-ship: "Druminence General Trading Ship"
-trader-drum-industrial-ship: "Druminence Industrial Trading Ship"
-trader-drum-military-ship: "Druminence Military Trading Ship"
-trader-drum-mining-ship: "Druminence Mining Trading Ship"
+trader-drum-generic-ship-poor: "Druminence Rundown Trading Ship"
+trader-drum-generic-ship-rich: "Druminence Affluent Trading Ship"
 trader-drum-conflictrecovery-ship: "Druminence Resupply Ship"
 
 trader-eu-agricultural: "Explorer Union Agriculturalist Station"
@@ -2323,14 +2431,9 @@ trader-eu-industrial: "Explorer Union Industrial Station"
 trader-eu-military: "Explorer Union Military Station"
 trader-eu-mining: "Explorer Union Mining Station"
 
-trader-eu-agricultural-ship: "Explorer Union Agriculturalist Trading Ship"
-trader-eu-colony-ship: "Explorer Union Colony Supplier Ship"
-trader-eu-construction-ship: "Explorer Union Construction Trading Ship"
-trader-eu-entertainment-ship: "Explorer Union Entertainment Trading Ship"
 trader-eu-generic-ship: "Explorer Union General Trading Ship"
-trader-eu-industrial-ship: "Explorer Union Industrial Trading Ship"
-trader-eu-military-ship: "Explorer Union Military Trading Ship"
-trader-eu-mining-ship: "Explorer Union Mining Trading Ship"
+trader-eu-generic-ship-poor: "Explorer Union Rundown Trading Ship"
+trader-eu-generic-ship-rich: "Explorer Union Affluent Trading Ship"
 trader-eu-conflictrecovery-ship: "Explorer Union Resupply Ship"
 
 trader-indtrader-agricultural: "Independent Agriculturalist Station"
@@ -2342,14 +2445,10 @@ trader-indtrader-industrial: "Independent Industrial Station"
 trader-indtrader-military: "Independent Military Station"
 trader-indtrader-mining: "Independent Mining Station"
 
-trader-indtrader-agricultural-ship: "Independent Agriculturalist Trading Ship"
-trader-indtrader-colony-ship: "Independent Colony Supplier Ship"
-trader-indtrader-construction-ship: "Independent Construction Trading Ship"
-trader-indtrader-entertainment-ship: "Independent Entertainment Trading Ship"
 trader-indtrader-generic-ship: "Independent General Trading Ship"
-trader-indtrader-industrial-ship: "Independent Industrial Trading Ship"
-trader-indtrader-military-ship: "Independent Military Trading Ship"
-trader-indtrader-mining-ship: "Independent Mining Trading Ship"
+trader-indtrader-generic-ship-poor: "Independent Rundown Trading Ship"
+trader-indtrader-generic-ship-rich: "Independent Affluent Trading Ship"
+trader-indtrader-conflictrecovery-ship: "Independent Resupply Ship"
 
 trader-kalgiri-agricultural: "Kal'Giri Agriculturalist Station"
 trader-kalgiri-colony: "Kal'Giri Colony Supplier"
@@ -2360,14 +2459,9 @@ trader-kalgiri-industrial: "Kal'Giri Industrial Station"
 trader-kalgiri-military: "Kal'Giri Military Station"
 trader-kalgiri-mining: "Kal'Giri Mining Station"
 
-trader-kalgiri-agricultural-ship: "Kal'Giri Agriculturalist Trading Ship"
-trader-kalgiri-colony-ship: "Kal'Giri Colony Supplier Ship"
-trader-kalgiri-construction-ship: "Kal'Giri Construction Trading Ship"
-trader-kalgiri-entertainment-ship: "Kal'Giri Entertainment Trading Ship"
 trader-kalgiri-generic-ship: "Kal'Giri General Trading Ship"
-trader-kalgiri-industrial-ship: "Kal'Giri Industrial Trading Ship"
-trader-kalgiri-military-ship: "Kal'Giri Military Trading Ship"
-trader-kalgiri-mining-ship: "Kal'Giri Mining Trading Ship"
+trader-kalgiri-generic-ship-poor: "Kal'Giri Rundown Trading Ship"
+trader-kalgiri-generic-ship-rich: "Kal'Giri Affluent Trading Ship"
 trader-kalgiri-conflictrecovery-ship: "Kal'Giri Resupply Ship"
 
 trader-default-agricultural: "Agriculturalist Station"
@@ -2407,14 +2501,9 @@ trader-sixiser-industrial: "Sixiser Industrial Station"
 trader-sixiser-military: "Sixiser Military Station"
 trader-sixiser-mining: "Sixiser Mining Station"
 
-trader-sixiser-agricultural-ship: "Sixiser Agriculturalist Trading Ship"
-trader-sixiser-colony-ship: "Sixiser Colony Supplier Ship"
-trader-sixiser-construction-ship: "Sixiser Construction Trading Ship"
-trader-sixiser-entertainment-ship: "Sixiser Entertainment Trading Ship"
 trader-sixiser-generic-ship: "Sixiser General Trading Ship"
-trader-sixiser-industrial-ship: "Sixiser Industrial Trading Ship"
-trader-sixiser-military-ship: "Sixiser Military Trading Ship"
-trader-sixiser-mining-ship: "Sixiser Mining Trading Ship"
+trader-sixiser-generic-ship-poor: "Sixiser Rundown Trading Ship"
+trader-sixiser-generic-ship-rich: "Sixiser Affluent Trading Ship"
 trader-sixiser-conflictrecovery-ship: "Sixiser Resupply Ship"
 
 trader-ticeroy-agricultural: "Ticeroy Agriculturalist Station"
@@ -2426,14 +2515,9 @@ trader-ticeroy-industrial: "Ticeroy Industrial Station"
 trader-ticeroy-military: "Ticeroy Military Station"
 trader-ticeroy-mining: "Ticeroy Mining Station"
 
-trader-ticeroy-agricultural-ship: "Ticeroy Agriculturalist Trading Ship"
-trader-ticeroy-colony-ship: "Ticeroy Colony Supplier Ship"
-trader-ticeroy-construction-ship: "Ticeroy Construction Trading Ship"
-trader-ticeroy-entertainment-ship: "Ticeroy Entertainment Trading Ship"
 trader-ticeroy-generic-ship: "Ticeroy General Trading Ship"
-trader-ticeroy-industrial-ship: "Ticeroy Industrial Trading Ship"
-trader-ticeroy-military-ship: "Ticeroy Military Trading Ship"
-trader-ticeroy-mining-ship: "Ticeroy Mining Trading Ship"
+trader-ticeroy-generic-ship-poor: "Ticeroy Rundown Trading Ship"
+trader-ticeroy-generic-ship-rich: "Ticeroy Affluent Trading Ship"
 trader-ticeroy-conflictrecovery-ship: "Ticeroy Resupply Ship"
 
 dialogue-entitydead: "[i][cccccc]No Response[-][/i]"

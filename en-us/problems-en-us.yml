@@ -18,9 +18,12 @@ problem-default-solar-step1-suc: Captain, passengers received. Medical says they
 problem-drum-solar-step1-suc: BEGIN TRANSLATION --[ Captain, passengers received. Medical reports good condition. Thank you for help. ]-- END TRANSLATION
 problem-default-solar-step1-complete: Good work. However the problem isn't solved yet. Continue working with local authorities to finish the problem.
 problem-drum-solar-step1-complete: BEGIN TRANSLATION --[ Good job. Problem not solved. Work with local authorities to finish. ]-- END TRANSLATION
-problem-default-solar-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-solar-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
-problem-drum-solar-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-solar-step3-reqtractor: I need a tractor, can you supply one?
+problem-default-solar-step3-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-solar-step3-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-solar-step1-opt-wait: Wait a minute. I have passengers to transfer.
+problem-default-solar-step1-opt-wait-suc: Understood. Temporary permission granted to approach.
+problem-drum-solar-step1-opt-wait-suc: BEGIN TRANSLATION --[ Permission Granted. Approach. ]-- END TRANSLATION
 
 problem-default-solar-step2-summary: "Gather and Deliver Probe Data"
 problem-default-solar-step2-desc: |
@@ -38,6 +41,9 @@ problem-default-solar-step2-suc: Thank you Captain. Data received. We will get t
 problem-drum-solar-step2-suc: BEGIN TRANSLATION --[ Thank. Captain. Data receive. Immediate scientist convey. ]-- END TRANSLATION
 problem-default-solar-step2-complete: Good work Captain. The scientists are pouring over the data now.
 problem-drum-solar-step2-complete: BEGIN TRANSLATION --[ Good work. Captain. Scientist study data. ]-- END TRANSLATION
+problem-default-solar-step2-opt-wait: Attention Station. I have the required probe data.
+problem-default-solar-step2-opt-wait-suc: Understood. Let us see those results.
+problem-drum-solar-step2-opt-wait-suc: BEGIN TRANSLATION --[ Permission Granted. Approach. ]-- END TRANSLATION
 
 problem-default-solar-step3-summary: "Deploy Solar Modulation Platforms"
 problem-default-solar-step3-desc: |
@@ -67,7 +73,7 @@ problem-default-musicfestival-step1-summary: "Pick up and deliver the mis-delive
 problem-default-musicfestival-step1-desc: |
  [h1]Music and Cultural Festival[/h1]
  [h2]Lost in Shipping[/h2]
- With the cultural council's approval, the preparations for the music and culture festival is in full swing. That means lots of food, music, dancing and mimery to be had. The downside: it is proving to be disorganized chaos in getting it all together. The latest issue is that the person ordering banners for the festival has fallen sick and their replacement ordered the banners to the wrong location. Now there's these expensive banners sitting in cargo pods everywhere but where they should be. Help get things back on track by picking up at nearby stations and delivering the cargo, [em]Music Festival Delivery[/em], to the right location.
+ With the cultural council's approval, the preparations for the music and culture festival is in full swing. That means lots of food, music, dancing and mimery to be had. The downside: it is proving to be disorganized chaos in getting it all together. The latest issue is that the person ordering banners for the festival has fallen sick and their replacement ordered the banners to the wrong location. Now there's these expensive banners sitting in cargo pods everywhere but where they should be. Help us get things back on track. Pick up the [em]Music Festival Banner[/em] found inside the waylaid [em]Music Festival Delivery[/em] cargo pods and bring it to the station.
  
 problem-default-musicfestival-station: Are you here to help with the music festival? Are you keeping up to date?
 problem-default-musicfestival-step1-opt-handin: I have found some of your banners. Prepare to receive them.
@@ -78,7 +84,7 @@ problem-default-musicfestival-step2-summary: "Rescue the stranded musicians"
 problem-default-musicfestival-step2-desc: |
  [h1]Music and Cultural Festival[/h1]
  [h2]Missing Musicians[/h2]
- What a disaster! Even with the banner delivery issue fixed, there's now the issue that the musicians shuttles have run out of fuel. These are some of the best musicians in the galaxy, and their sitting out in space, slowly freezing to death all for this event! Find the [em]Music Ship[/em], help rescue these people and get them to the safety of a warm and powered station.
+ What a disaster! Even with the banner delivery issue fixed, there's now the issue that the musicians shuttles have run out of fuel. These are some of the best musicians in the galaxy, and their sitting out in space, slowly freezing to death all for this event! Find the [em]Stranded Ship[/em], help rescue these people and get them to the safety of the [em]Festival Station[/em].
  
 problem-default-musicfestival-distress1: Help! We have run out of fuel while on our way to the music festival. We are freezing out here! Can you help us?
 problem-default-musicfestival-distress1-opt-takepeople: Yeah, I can help you. Be prepared to be picked up.
@@ -92,7 +98,7 @@ problem-default-musicfestival-step3-summary: "Destroy or pay off the bootlegging
 problem-default-musicfestival-step3-desc: |
  [h1]Music and Cultural Festival[/h1]
  [h2]Bootlegging Bandits[/h2]
- Can anything get worse!? We have finally gotten things off the ground, only to be threatened by pirates! Apparently one of their cowardly colleagues have smuggled a recording device into the closed session rehearsels and they are now threatening to sell boot legs of the sessions. This would economically ruin the festival as we were counting on the recording sales to cover the costs. Help locate the [em]Pirate Radio Broadcast[/em] and stop these pirated copies before they are able to disseminate the records.
+ Can anything get worse!? We have finally gotten things off the ground, only to be threatened by pirates! Apparently one of their cowardly colleagues have smuggled a recording device into the closed session rehearsels and they are now threatening to sell boot legs of the sessions. This would economically ruin the festival as we were counting on the recording sales to cover the costs. Help locate the several [em]Pirate Radio Broadcast[/em] and stop these pirated copies before they are able to disseminate the records.
 
 problem-default-musicfestival-pirateradiostation: What do you want?
 problem-default-musicfestival-pirateradiostation-opt1: Pirate Radio Station. You have records that don't belong to you.
@@ -124,8 +130,8 @@ problem-default-mutiny-step1-proximity: "Encased in ice? Try to extract it from 
 problem-default-mutiny-freedbeacon-header: "{vesselname}"
 problem-default-mutiny-freedbeacon-text: UNAUTHORIZED ACCESS DETECTED *bzzt* [i][cccccc]{vesselname} self destructs as you attempt to investigate. However you were able to pickup the location of another signal.[/i][-]
 problem-default-mutiny-step1-complete: "Local Command commends you on your assistance. Local Command will be in contact soon."
-problem-default-mutiny-step1-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-mutiny-step1-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-default-mutiny-step2-reqtractor: I need a tractor, can you supply one?
+problem-default-mutiny-step2-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
 
 problem-default-mutiny-step2-summary: "Disable and deliver ships wanted for questioning"
 problem-default-mutiny-step2-desc: |
@@ -136,6 +142,10 @@ problem-default-mutiny-step2-desc: |
 problem-default-mutiny-step2-opt-handin: "I have a ship ready to be processed."
 problem-default-mutiny-step2-handin-start: "Excellent. Bring it over for processing."
 problem-default-mutiny-step2-complete: "All the ships are accounted for. We will process the crew and get to the bottom of this."
+problem-default-mutiny-step2-opt-wait: Hold on a second. I have a ship to turn in.
+problem-default-mutiny-step2-opt-wait-suc: Request granted. We will hold fire for you.
+problem-drum-mutiny-step2-opt-wait-suc: BEGIN TRANSLATION --[ Wait engaged. Hand over vessel. ]-- END TRANSLATION
+
 problem-default-mutiny-step3-summary: "Transport and deliver space marines"
 problem-default-mutiny-step3-desc: |
  [h1]Mutinous Crew[/h1]
@@ -183,9 +193,12 @@ problem-default-tradesgoneawry-step2-suc: "Thanks. We'll take them from here."
 problem-drum-tradesgoneawry-step2-suc: "BEGIN TRANSLATION --[ Gratitude. Responsibility assumed. ]-- END TRANSLATION"
 problem-default-tradesgoneawry-step2-complete: "Thanks for your help. The governor's office has the interrogators standing by."
 problem-drum-tradesgoneawry-step2-complete: "BEGIN TRANSLATION --[ Gratitude for aid. Interrogators await at governor's office. ]-- END TRANSLATION"
-problem-default-tradesgoneawry-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-tradesgoneawry-step2-complete-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
-problem-drum-tradesgoneawry-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-tradesgoneawry-step3-reqtractor: I need a tractor, can you supply one?
+problem-default-tradesgoneawry-step3-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-tradesgoneawry-step3-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-tradesgoneawry-step2-opt-wait: Hold your fire. I have a foreign ship for delivery.
+problem-default-tradesgoneawry-step2-opt-wait-suc: Acknowledged, holding firing. Bring the ship in.
+problem-drum-tradesgoneawry-step2-opt-wait-suc: BEGIN TRANSLATION --[ Gratitude. Deliver ship. ]-- END TRANSLATION
 
 problem-default-tradesgoneawry-shipsurrender-text: Very well. We are clearly no match for you. We surrender.
 problem-drum-tradesgoneawry-shipsurrender-text: BEGIN TRANSLATION --[ Understood. Inferiority acknowledged. Surrender initiated. ]-- END TRANSLATION
@@ -206,6 +219,9 @@ problem-default-tradesgoneawry-step3-complete: "Good work Captain. The Governor'
 problem-drum-tradesgoneawry-step3-complete: "BEGIN TRANSLATION --[ Great Effort. Foiled invasion plot. Governor pleased. Much thanks. ]-- END TRANSLATION"
 problem-default-tradesgoneawry-weapcontainer-handin1: Weapon container received.
 problem-drum-tradesgoneawry-weapcontainer-handin1: BEGIN TRANSLATION --[ Weapon container received. ]-- END TRANSLATION
+problem-default-tradesgoneawry-step3-opt-wait: Hold your fire station. I have some weapons to deliver.
+problem-default-tradesgoneawry-step3-opt-wait-suc: Understood. You are free to approach with cargo.
+problem-drum-tradesgoneawry-step3-opt-wait-suc: BEGIN TRANSLATION --[ Approach with container. ]-- END TRANSLATION
 
 problem-default-tradesgoneawry-opt-getbuff: Station, I am ready for my reward.
 problem-default-tradesgoneawry-givebuff: With your help we were able to stop our aggressive neighbor. You deserve this and more.
@@ -275,6 +291,9 @@ problem-default-spacewasps-step2-suc: Jelly received. It sure is tasty looking.
 problem-drum-spacewasps-step2-suc: BEGIN TRANSLATION --[ Jelly received. Looks good. ]-- END TRANSLATION
 problem-default-spacewasps-step2-complete: Good work Captain. We have enough jelly to work with for years.
 problem-drum-spacewasps-step2-complete: BEGIN TRANSLATION --[ Captain, good job. Jelly for years. ]-- END TRANSLATION
+problem-default-spacewasps-step2-opt-wait: Station, hold your fire. I have jelly for delivery.
+problem-default-spacewasps-step2-opt-wait-suc: Understood Captain. You are free to approach.
+problem-drum-spacewasps-step2-opt-wait-suc: BEGIN TRANSLATION --[ Weapon restrained. Bring Jelly. ]-- END TRANSLATION
  
 problem-default-spacewasps-step3-summary: "Queen and Hive Destroyed"
 problem-default-spacewasps-step3-desc: |
@@ -303,6 +322,9 @@ problem-default-rogueeugenics-step1-suc: Thank you Captain. Logs received and wi
 problem-drum-rogueeugenics-step1-suc: BEGIN TRANSLATION --[ Logs received. Processing now, Captain. ]-- END TRANSLATION
 problem-default-rogueeugenics-step1-complete: You have done it. All the logs have been retrieved.
 problem-drum-rogueeugenics-step1-complete: BEGIN TRANSLATION --[ All logs retrieved. Well done. ]-- END TRANSLATION
+problem-default-rogueeugenics-step1-opt-wait: Station. Hold fire. I have a delivery.
+problem-default-rogueeugenics-step1-opt-wait-suc: Holding fire. Approach.
+problem-drum-rogueeugenics-step1-opt-wait-suc: BEGIN TRANSLATION --[ Holding fire. Approach. ]-- END TRANSLATION
  
 problem-default-rogueeugenics-step2-summary: "Force the Suspected Dirty Police to Surrender for Questioning"
 problem-default-rogueeugenics-step2-desc: |
@@ -314,6 +336,10 @@ problem-default-rogueeugenics-step2-opt-handin: Station, I have some of those di
 problem-default-rogueeugenics-step2-suc: Thank you Captain. We're going to get to the bottom of this.
 problem-drum-rogueeugenics-step2-suc: BEGIN TRANSLATION --[ Prisoner received. Thank you, Captain. ]-- END TRANSLATION
 problem-default-rogueeugenics-step2-complete: Good work. Enough of the dirty cops have been apprehended. We are going to work them over shortly.
+problem-drum-rogueeugenics-step2-complete: BEGIN TRANSLATION --[ Good work. Dirty cops apprehended. Processing soon. ]-- END TRANSLATION
+problem-default-rogueeugenics-step2-opt-wait: Station, I have a dirty cop for turn in. Hold your fire.
+problem-default-rogueeugenics-step2-opt-wait-suc: Understood. Approach with your bounty.
+problem-drum-rogueeugenics-step2-opt-wait-suc: BEGIN TRANSLATION --[ Cease Fire. Approach. ]-- END TRANSLATION
  
 problem-default-rogueeugenics-step3-summary: "Investigate and Destroy Bio-Mechanoid Monstrosities"
 problem-default-rogueeugenics-step3-desc: |
@@ -358,6 +384,9 @@ problem-drum-extrasolarribbon-step1-suc: BEGIN TRANSLATION --[ Captain, logs rec
 problem-default-extrasolarribbon-step1-complete: Good work Captain. You have done more than your fair share. We should have some answers to this problem shortly.
 problem-drum-extrasolarribbon-step1-complete: BEGIN TRANSLATION --[ Good work Captain. You do more than fair share. Answers come soon. ]-- END TRANSLATION
 problem-default-extrasolarribbon-log: The log describes the last moments of the ship before the energy ribbon breaches its hull.
+problem-default-extrasolarribbon-step1-opt-wait: Hold on station. I have intelligence to deliver.
+problem-default-extrasolarribbon-step1-opt-wait-suc: Holding Fire. Approach but be mindful. We're watching.
+problem-drum-extrasolarribbon-step1-opt-wait-suc: BEGIN TRANSLATION --[ Approach. ]-- END TRANSLATION
  
 problem-default-extrasolarribbon-step2-summary: "Deliver Relief Supplies"
 problem-default-extrasolarribbon-step2-desc: |
@@ -370,9 +399,9 @@ problem-default-extrasolarribbon-step2-suc: Thanks for the relief supplies!
 problem-drum-extrasolarribbon-step2-suc: BEGIN TRANSLATION --[ Supplies Accepted. Operations proceeeding. ]-- END TRANSLATION
 problem-default-extrasolarribbon-step2-complete: Captain, those relief supplies you delivered will have a great benefit throughout the system.
 problem-drum-extrasolarribbon-step2-complete: BEGIN TRANSLATION --[ Captain, relief supplies have great benefit. System wide. ]-- END TRANSLATION
-problem-default-extrasolarribbon-step2-complete-reqtractor: I need a tractor, can you supply one?
-problem-default-extrasolarribbon-step2-complete-reqtractor-give: Yes, here's a tractor for you.
-problem-drum-extrasolarribbon-step2-complete-reqtractor-give: BEGIN TRANSLATION --[ Tractor. Here. Yes. ]-- END TRANSLATION
+problem-default-extrasolarribbon-step3-reqtractor: I need a tractor, can you supply one?
+problem-default-extrasolarribbon-step3-reqtractor-give: Yes, here's a tractor for you.
+problem-drum-extrasolarribbon-step3-reqtractor-give: BEGIN TRANSLATION --[ Tractor. Here. Yes. ]-- END TRANSLATION
 problem-default-extrasolarribbon-reliefcentral: Hello Captain. This is Relief Central. What do you need?
 problem-drum-extrasolarribbon-reliefcentral: BEGIN TRANSLATION --[ Captain. Relief Central speaking. Need what? ]-- END TRANSLATION
 problem-default-extrasolarribbon-reliefcentral-opt-req: Relief Central, I'm here to pick up some supplies for delivery.
@@ -380,6 +409,9 @@ problem-default-extrasolarribbon-reliefcentral-give: Stand by. Here are some sup
 problem-drum-extrasolarribbon-reliefcentral-give: BEGIN TRANSLATION --[ Supplies coming. Captain, good work. ]-- END TRANSLATION
 problem-default-extrasolarribbon-distressstation: It's been a pretty bad time since the incident. Do you have any good news?
 problem-drum-extrasolarribbon-distressstation: BEGIN TRANSLATION --[ Bad time since incident. Good news? ]-- END TRANSLATION
+problem-default-extrasolarribbon-step2-opt-wait: Station, I come bearing supplies.
+problem-default-extrasolarribbon-step2-opt-wait-suc: Acknowledged. Holding fire. Bring it in.
+problem-drum-extrasolarribbon-step2-opt-wait-suc: BEGIN TRANSLATION --[ Deliver forward. Approach. ]-- END TRANSLATION
  
 problem-default-extrasolarribbon-step3-summary: "Deliver the unassembled Deflector parts"
 problem-default-extrasolarribbon-step3-desc: |
@@ -501,6 +533,10 @@ problem-default-dumpedcargo-step1-desc:  |
  [h1]Supply Time Running Short[/h1]
  Several local delivery ships have had to dump their cargo after on-board emergencies. That cargo needs to be delivered before it expires. Lend a hand and help deliver the goods. Look for [em]Dumped Cargo[/em] and bring the cargo pods to any near by [em]station[/em]. One more thing, these cargo pods are pretty hefty and need to be delivered INTACT, so don't forget to bring a tractor beam.
  
+problem-default-dumpedcargo-step1-reqtractor: I need a tractor, can you supply one?
+problem-default-dumpedcargo-step1-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-dumpedcargo-step1-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+
 problem-default-dumpedcargo-step1-opt-handin: I have one of the cargo pods
 problem-default-dumpedcargo-handin-ack: Understood. Please deliver it over here.
 problem-drum-dumpedcargo-handin-ack: BEGIN TRANSLATION --[ Arrive cargo desired location ]-- END TRANSLATION 
@@ -508,6 +544,9 @@ problem-default-dumpedcargo-cargo-handin1: Cargo container received.
 problem-drum-dumpedcargo-cargo-handin1: BEGIN TRANSLATION --[ Receivement done ]-- END TRANSLATION 
 problem-default-dumpedcargo-step1-complete: Great work Captain! Your prompt response and efficient transport helped us avoid any loss of valuable goods.
 problem-drum-dumpedcargo-step1-complete: BEGIN TRANSLATION --[ Captain good work. Welcomed help assistance delivered time wise well. Loss avoided. ]-- END TRANSLATION 
+problem-default-dumpedcargo-step1-opt-wait: Hold your fire. I have dumped cargo.
+problem-default-dumpedcargo-step1-opt-wait-suc: Understood. You are free to approach.
+problem-drum-dumpedcargo-step1-opt-wait-suc: BEGIN TRANSLATION --[ Approach. ]-- END TRANSLATION 
 
 problem-default-dumpedcargo-opt-getbuff: Station, I am ready for my reward.
 problem-default-dumpedcargo-givebuff: Thank you for picking up and deliverying all the dumped cargo. Accept our gratitude with this.
@@ -546,6 +585,9 @@ problem-default-oreshortage-step1-suc: Your help with the ore delivery was much 
 problem-drum-oreshortage-step1-suc: BEGIN TRANSLATION --[ Captain good work. Delivered ore accepted. ]-- END TRANSLATION
 problem-default-oreshortage-step1-complete: Captain, your help is greatly appreciated. Thanks to your efforts our operations are running smoothly again. 
 problem-drum-oreshortage-step1-complete: BEGIN TRANSLATION --[ Operation return smoothly. Thank you Captain. ]-- END TRANSLATION
+problem-default-oreshortage-step1-opt-wait: Wait! Don't fire! I have ore to deliver.
+problem-default-oreshortage-step1-opt-wait-suc: Very well. You are free to approach for delivery.
+problem-drum-oreshortage-step1-opt-wait-suc: BEGIN TRANSLATION --[ Approach. ]-- END TRANSLATION
 
 problem-default-oreshortage-opt-getbuff: Station, I am ready for my reward.
 problem-default-oreshortage-givebuff: The ore shortage is over, for now. Thank you Captain. Accept this as a token of our appreciation.
@@ -572,3 +614,125 @@ problem-default-piratelife-step1-complete: We will remember this Captain. Your r
 problem-default-piratelife-opt-getbuff: Station, I am ready for my reward.
 problem-default-piratelife-givebuff: Aye Captain. You have a true pirate hearts in you, and for that, accept this as our thanks.
 problem-drum-piratelife-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+
+#Dopplegangers ==============================================================================================================
+problem-default-dopplegangers-title: "Local Assaults"
+problem-default-dopplegangers-step1-summary: "Investigate Skirmishes and Collect Evidence"
+problem-default-dopplegangers-step1-desc: |
+ [h1]Local Assaults[/h1]
+ [h2]Investigate These Reports[/h2]
+ Local authorities have received reports of skirmishes with unknown attackers. They first appear to be friendly vessels, but then begin to attack local ships without cause. Thankfully, many of our local crews have been able to defend themselves from these assaults. We need to investigate this, and figure out what is going on. Help gather [em]Unknown Wreckage[/em] from these [em]Skirmishes[/em] regions and hand it over to one of our stations.
+ 
+problem-default-dopplegangers-step1-opt-handin: Greetings Station. I have collected the wreckage for analysis. Prepare to receive.
+problem-default-dopplegangers-step1-suc: Thank you Captain. We are going to have the boys over in the lab check it out.
+problem-drum-dopplegangers-step1-suc: BEGIN TRANSLATION --[ Analysis to begin. ]-- END TRANSLATION
+
+problem-default-dopplegangers-step1-complete: We are working over the wreckage data now. We should have an update soon.\n\n[i][cccccc]New update available on System Info screen[-][/i]
+problem-drum-dopplegangers-step1-complete: BEGIN TRANSLATION --[ Wreckage Analysis Complete ]-- END TRANSLATION
+
+problem-default-dopplegangers-step2-reqtractor: I need a tractor, can you supply one?
+problem-default-dopplegangers-step2-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-dopplegangers-step2-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+problem-default-dopplegangers-step1-opt-wait: Hold your fire. I have wreckage as requested.
+problem-default-dopplegangers-step1-opt-wait-suc: Very well. Holding fire. Approach.
+problem-drum-dopplegangers-step1-opt-wait-suc: BEGIN TRANSLATION --[ Approach. ]-- END TRANSLATION
+ 
+problem-default-dopplegangers-step2-summary: "Deploy Subscattering Scanners"
+problem-default-dopplegangers-step2-desc: |
+ [h1]Local Assaults[/h1]
+ [h2]Track Down The Source[/h2]
+ There is something odd about the wreckage collected. The surface level scans show it's like normal metal, but the subatomic scans are showing something odd. Unnatural even. However, the fact of the matter is the attacks have been continuing at a steady rate. We need to find out where they are originating from. Our chief engineer has slapped some sensors together, that based on the evidence you gathered, should allow us to hone in on where these ships are originating from. We need you to deposit them in key places around the system for this to work. You will need a tractor beam, visit the [em]Scanner Factory[/em] to collect the [em]Subscattering Scanner[/em] and bring them to the four [em]Scanner Site[/em].
+ 
+problem-default-dopplegangers-step2-complete: All the Subscattering Scanners are in place and relaying their data. Thanks for the help.
+problem-drum-dopplegangers-step2-complete: BEGIN TRANSLATION --[ Scanner work. Data talking. ]-- END TRANSLATION
+ 
+problem-default-dopplegangers-step3-summary: "Investigate Locations"
+problem-default-dopplegangers-step3-desc: |
+ [h1]Local Assaults[/h1]
+ [h2]Put An End to It[/h2]
+ Thanks to your recent hard work, we have been able to use the scanner data to determine where these attackers are coming from. It appears that there are three bases spread around the system that needs to be scouted, and if any of these confrontation vessels are encountered, destroyed. Send them a message that their aggression won't be further tolerated. Look for these [em]Triangulated Suspect Location[/em] and do what you need to do.
+ 
+problem-default-dopplegangers-doppleseed: Haha! You have fallen into our trap, like many before you. We are ready to take your place.
+problem-drum-dopplegangers-doppleseed: Haha! You have fallen into our trap, like many before you. We are ready to take your place.
+
+problem-default-dopplegangers-scanner-handin1: Good work Captain. This scanner is in position and ready to go.
+problem-drum-dopplegangers-scanner-handin1: BEGIN TRANSLATION --[ Good. Platform ready position. ]-- END TRANSLATION
+problem-default-dopplegangers-scannerfactory-hail: Greetings Captain. We have the subscattering scanners on hand. You will have to tractor them out into position. Good luck.
+problem-drum-dopplegangers-scannerfactory-hail: BEGIN TRANSLATION --[ Hello. Captain. Subscattering scanner supply available. Deploy position responsibility. ]-- END TRANSLATION
+problem-default-dopplegangers-scannerfactory-reqplatform: Station, I require another platform. Send one out for tractoring.
+problem-default-dopplegangers-scannerfactory-reqplatform-granted: Understood Captain. We are launching a platform now.
+problem-drum-dopplegangers-scannerfactory-reqplatform-granted: BEGIN TRANSLATION --[ Understood. Captain. Platform launch now. Positivity. ]-- END TRANSLATION
+problem-default-dopplegangers-scannerfactory-reqplatform-denied: Negative Captain. There is already a platform available nearby.
+problem-drum-dopplegangers-scannerfactory-reqplatform-denied: BEGIN TRANSLATION --[ Unable. Limited resources. Nearby available platform. ]-- END TRANSLATION
+
+problem-default-dopplegangers-step3-complete: They were what? Shape Shifting Dopplegangers? That was a close one then. You managed to stop them before they did any real damage to the system. Thank you!
+problem-drum-dopplegangers-step3-complete: BEGIN TRANSLATION --[ Doppleganger Gang Obliterated. Thank you. ]-- END TRANSLATION
+
+problem-default-dopplegangers-opt-getbuff: Station, I am ready for my reward.
+problem-default-dopplegangers-givebuff: Captain, the system is safe once again. Please accept this token of appreciation.
+problem-drum-dopplegangers-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+
+#Planetary Mining ==============================================================================================================
+problem-default-planetarymining-title: "Planet Destroying for Profit"
+problem-default-planetarymining-step1-summary: "Mine and Deliver Samples"
+problem-default-planetarymining-step1-desc: |
+ [h1]Planet Destroying for Profit[/h1]
+ [h2]Mine and Deliver Samples[/h2]
+ The System Councillor has issued a request for [em]ore samples[/em] from around the star system. We have long suspected our current available supply of asteroids is reaching a point-of-no-returns in terms of quality and we want pilots like yourself to help to confirm it. Gather those samples from several [em]Sample Site[/em] and turn it into a nearby Space Station. Reminder: Most ships have scanners these days, so don't forget to use it if you are having trouble locating the samples.
+ 
+problem-default-planetarymining-step1-opt-handin: Station, I have some of the requested ore samples to submit.
+problem-default-planetarymining-step1-suc: Captain, samples received. Thanks for the ore.
+problem-drum-planetarymining-step1-suc: BEGIN TRANSLATION --[ Sample input. Intake complete. ]-- END TRANSLATION
+
+problem-default-planetarymining-step1-complete: We have received all the required ore samples. We will see what the lab results say.
+problem-drum-planetarymining-step1-complete: BEGIN TRANSLATION --[ Test to commence. Submission complete. ]-- END TRANSLATION
+problem-default-planetarymining-step1-opt-wait: Hold your fire Station. I have ore samples for delivery.
+problem-default-planetarymining-step1-opt-wait-suc: You may approach. Tread carefully.
+problem-drum-planetarymining-step1-opt-wait-suc: BEGIN TRANSLATION --[ Approach. ]-- END TRANSLATION
+ 
+problem-default-planetarymining-step2-summary: "Remove Protesters"
+problem-default-planetarymining-step2-desc: |
+ [h1]Planet Destroying for Profit[/h1]
+ [h2]Clear the Protests[/h2]
+ News of the survey and pending detonation has been leaked to the press. As we speak, there are militant protesters setting up around the planet, who are threatening violence to stop the detonation from occurring. That would be a major hurdle so the Councillor is asking for all able-bodied and forward-thinking crews to assist in running the protesters off. Head for the [em]Protest[/em], and while deadly force isn't required, if it occurs, there won't be any punishment for it.
+ 
+problem-default-planetarymining-protester-hail: Get out of here planet killer! This planet deserves to live.
+problem-default-planetarymining-protester-surrender: You can run me off, but there will be more of us!
+problem-default-planetarymining-protestcleared: Another protest site cleared. They will know better next time.
+problem-drum-planetarymining-protestcleared: BEGIN TRANSLATION --[ Protest aborted. Continue. ]-- END TRANSLATION
+
+problem-default-planetarymining-step2-complete: Good work. Those protestors hearts might be in the right place, but they were standing in the way of improving the system.
+problem-drum-planetarymining-step2-complete: BEGIN TRANSLATION --[ Imbeciles abound. Removed blockade promptly. Thank you. ]-- END TRANSLATION
+
+problem-default-planetarymining-step3-reqtractor: I need a tractor, can you supply one?
+problem-default-planetarymining-step3-reqtractor-give: Yes, here's a tractor that should suffice. Be sure to equip it on your ship.
+problem-drum-planetarymining-step3-reqtractor-give: BEGIN TRANSLATION --[ Affirmative, tractor provided. Equip on ship. ]-- END TRANSLATION
+ 
+problem-default-planetarymining-step3-summary: "Deploy Bombs"
+problem-default-planetarymining-step3-desc: |
+ [h1]Planet Destroying for Profit[/h1]
+ [h2]Deploy the Explosions[/h2]
+ With the protesters cleared off, the planet detonation is ready to proceed. This should solve all the ore quality issues soon. The Councillor's office needs the explosives moved into place. These need to be moved with tractor beams into orbit. Lend a hand, and grab a [em]Planetary Depth Charge[/em] from the [em]Bomb Factory[/em] and move it to a [em]Bomb Location[/em]. Once they are all in place, stand back and watch the fireworks.
+
+problem-default-planetarymining-bomb-handin1: One depth charge down. Almost set.
+problem-drum-planetarymining-bomb-handin1: BEGIN TRANSLATION --[ Good work. Captain. Charge in position. Ready. ]-- END TRANSLATION
+problem-default-planetarymining-bombfactory-hail: Greetings Captain. We have the bombs on hand. It will be up to you to tractor them out into position. Good luck.
+problem-drum-planetarymining-bombfactory-hail: BEGIN TRANSLATION --[ Hello. Captain. Bomb supply available. Deploy position responsibility. ]-- END TRANSLATION
+problem-default-planetarymining-bombfactory-reqplatform: Station, I require another bomb. Send one out for tractoring.
+problem-default-planetarymining-bombfactory-reqplatform-granted: Understood Captain. Prepare for a bomb shortly.
+problem-drum-planetarymining-bombfactory-reqplatform-granted: BEGIN TRANSLATION --[ Understood. Captain. Bomb launch now. Positivity. ]-- END TRANSLATION
+problem-default-planetarymining-bombfactory-reqplatform-denied: Negative Captain. There is already a bomb available nearby, you will have to deploy that one first.
+problem-drum-planetarymining-bombfactory-reqplatform-denied: BEGIN TRANSLATION --[ Unable. Limited resources. Nearby available bomb. Go work. ]-- END TRANSLATION
+
+problem-default-planetarymining-step3-complete: Excellent work. The planet will make an excellent asteroid field and enrichen us greatly. Thanks for your help.
+problem-drum-planetarymining-step3-complete: BEGIN TRANSLATION --[ New asteroid good. Very good. ]-- END TRANSLATION
+
+problem-default-planetarymining-opt-getbuff: Station, I am ready for my reward.
+problem-default-planetarymining-givebuff: Captain, the system's financial future is again secured. Thank you. Please accept this token of appreciation.
+problem-drum-planetarymining-givebuff: BEGIN TRANSLATION --[ Yes Captain. Acknowledgement thank you. ]-- END TRANSLATION
+
+
+
+

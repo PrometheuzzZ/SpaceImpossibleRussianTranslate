@@ -4,7 +4,7 @@ wreck-log-cont: "CONTINUE"
 
 #General 1
 wreck-log-gen1-header: "Captain {captname}'s Log"
-wreck-log-gen1-body: "[Final Entry] Stardate: 78795.33 Captain {captname}'s log.\n We've received new instructions from home. They want the {shipname} to practice some high speed, high G maneuvers. I don't really want to, but I've requested confirmation, and it will be done. Helm has been drinking extra coffee, and says he's ready to give it a shot.\n\n I hope it works."
+wreck-log-gen1-body: "[Final Entry] Stardate: 78795.33 Captain {captname}'s log.\nWe've received new instructions from home. They want the {shipname} to practice some high speed, high G maneuvers. I don't really want to, but I've requested confirmation, and it will be done. Helm has been drinking extra coffee, and says he's ready to give it a shot.\n\nI hope it works."
 wreck-log-gen1-more1: "[i]No more entries remain, the pile of rubble this data log was recovered from seems to be all that remains of the {shipname}.[/i]"
 
 #General 2
