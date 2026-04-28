@@ -2757,7 +2757,7 @@ dialogue-scrapper-station-shipscraphandin-complete1: "Рады иметь дел
 dialogue-scrapper-station-shipscraphandin-complete2: "Очень щедро! Примем столько лома, сколько сможешь привезти."
 dialogue-scrapper-station-shipscraphandin-cancel: "Неважно, я передумал."
 
-dialogue-ai-replies-manuf1: "[b][975679]$manu$[/b][-]Могу я воспользоваться вашими фабрикаторами? [aaaaaa][i][open manufacture][/i][-]"
+dialogue-ai-replies-manuf1: "[b][975679]$manu$[/b][-]Могу я воспользоваться вашими фабрикаторами? [aaaaaa][i][открыть производство][/i][-]"
 dialogue-default-enterrange-station-blackhole-neutral-text: "Приветствую, Капитан. Держитесь подальше! Мои братья и я заняты исследованием этой аномалии."
 dialogue-default-enterrange-station-blackhole-neutral-reply-explain: "Что за исследование? Что делает эта аномалия?"
 dialogue-default-enterrange-station-blackhole-neutral-reply-openanomaly: "Вы можете активировать для меня аномалию?"
