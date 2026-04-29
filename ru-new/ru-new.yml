@@ -973,7 +973,7 @@ size-large: "Большой"
 size-gigantic: "Гигантский"
 
 sort-bymass: "По массе"
-sort-byvalue: "По GSP"
+sort-byvalue: "По стоимости"
 sort-bycategory: "По типу"
 sort-stack: "Стек"
 
@@ -981,7 +981,7 @@ sort-recipe-default: "По умолчанию"
 sort-recipe-bycraftable: "По доступности"
 sort-recipe-byname: "По имени"
 sort-recipe-bycategory: "По типу"
-sort-recipe-byvalue: "По GSP результата"
+sort-recipe-byvalue: "По стоимости результата"
 
 #Building & Ship Editor
 

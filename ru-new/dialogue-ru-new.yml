@@ -1,7 +1,7 @@
 #Player reply options to AI dialogue, a lot are reused so we share them
-dialogue-ai-replies-spaced1: "Убирайся в космос! Скажи, куда слать соболезнования твоим вдовам."
-dialogue-ai-replies-spaced2: "Убирайся в космос! Твой груз теперь мой!"
-dialogue-ai-replies-spaced3: "Убирайся в космос! Ты умрёшь!"
+dialogue-ai-replies-spaced1: "Скажи, куда слать соболезнования твоим вдовам!"
+dialogue-ai-replies-spaced2: "Этот груз теперь мой!"
+dialogue-ai-replies-spaced3: "Ты сейчас сдохнешь!"
 
 dialogue-ai-replies-none: "<Не отвечать>"
 
@@ -32,7 +32,7 @@ dialogue-default-enter-firsttime-replydef: "Это тревожно. Возмо�
 dialogue-default-enter-firsttime-replydef-resp: "Если понадоблюсь — вызывай снова ({key-hail})"
 dialogue-default-enter-firsttime-reply1: "Какие гиперврата?"
 dialogue-default-enter-firsttime-reply1-resp: "Ну, гиперврата: большие, чёрные с розовым, очень шумные. Говорят, они существуют дольше, чем человечество. Именно они делают возможной жизнь, какой мы её знаем."
-dialogue-default-enter-firsttime-replyspaced-resp: Наверное, не стоит орать об этом здесь. На этот раз прощаю — видно, ты тут новичок"
+dialogue-default-enter-firsttime-replyspaced-resp: "Наверное, не стоит орать об этом здесь. На этот раз прощаю — видно, ты тут новичок"
 
 dialogue-default-buyship-text: "Корабль продаётся за [b][77ccff]Ⱡ{shipcost}[-][/b]."
 dialogue-default-buyship-opt-buy: "Купить корабль [Требуется: Ⱡ{shipcost}]"
